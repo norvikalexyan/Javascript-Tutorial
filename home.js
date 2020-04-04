@@ -42,13 +42,51 @@ console.log('variable example 3: ', name1, age1, married1);
 
 //*** 3. Alert, prompt, Confirm ***
 
-alert('This is alert window');
-var conf = confirm('Are you sure??');
-console.log('Confirm example: ', conf); //this example will show one window with 2 buttons, if we press ok it will show us true in console and if we press cancel it will show false.
+//alert('This is alert window');
+//var conf = confirm('Are you sure??');
+//console.log('Confirm example: ', conf); //this example will show one window with 2 buttons, if we press ok it will show us true in console and if we press cancel it will show false.
 
-var promptValue = prompt('this is a prompt example:');
-console.log('prompt example: ', promptValue); //this will show what our user input.
-console.log('type of prompt example: ', typeof promptValue); //default type for prompt is string and it will show user's inputted text type.
+//var promptValue = prompt('this is a prompt example:');
+//console.log('prompt example: ', promptValue); //this will show what our user input.
+//console.log('type of prompt example: ', typeof promptValue); //default type for prompt is string and it will show user's inputted text type.
+
+//_________________________________________
+
+//*** 4. Math operations *** 
+
+//+, -, /, *, ++, --, +=, -=, *=, /=, **, %
+
+//Logical operations:
+//&&, ||, !
+
+//example 1:
+var number1 = 7;
+console.log('math example 1: ', number1);
+
+//example 2:
+var number2 = 10
+var number3 = number2 + 10;
+console.log('math example 2: ', number3);
+
+//example 3:
+var number4 = number2 ** 3;
+console.log('math example 3: ', number4);
+
+//example 4:
+console.log('math example 4: ', number2 % 2);
+
+//example 5:
+number2 += 20; 
+console.log('math example 5: ', number2);
+
+//decrement and increment operators:
+++number2 // pre increment.
+number2++ //post increment (number2 = number2 + 1).
+--number2 //pre decrement.
+number2-- //post decrement (number2 = number2 - 1).
+
+
+
 
 
 
