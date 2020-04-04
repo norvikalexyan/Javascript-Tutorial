@@ -11,19 +11,6 @@ console.log(typeof text); //this will print type of text variable.
 
 //*** 2. Variable *** 
 
-//we can use variable to store data  temporary.
-//variable are symbolic name of values.
-//values of a variable can change.
-//we will write a variable with 'let' or 'var'.
-
-//name of variable:
-//1.cannot be a reserved keyword.
-//2.it should be meaningful.
-//3.cannot start with a number.
-//4.cannot contain space or hyphen (-).
-//5.they are case-sensitive.
-//6.A variable name must start with a letter, underscore (_), or dollar sign ($).
-
 //example 1:
 let firstName = 'Norvik';
 let lastName = 'Alexian';
@@ -42,13 +29,13 @@ console.log('variable example 3: ', name1, age1, married1);
 
 //*** 3. Alert, prompt, Confirm ***
 
-//alert('This is alert window');
-//var conf = confirm('Are you sure??');
-//console.log('Confirm example: ', conf); //this example will show one window with 2 buttons, if we press ok it will show us true in console and if we press cancel it will show false.
+alert('This is alert window');
+var conf = confirm('Are you sure??');
+console.log('Confirm example: ', conf); //this example will show one window with 2 buttons, if we press ok it will show us true in console and if we press cancel it will show false.
 
-//var promptValue = prompt('this is a prompt example:');
-//console.log('prompt example: ', promptValue); //this will show what our user input.
-//console.log('type of prompt example: ', typeof promptValue); //default type for prompt is string and it will show user's inputted text type.
+var promptValue = prompt('this is a prompt example:');
+console.log('prompt example: ', promptValue); //this will show what our user input.
+console.log('type of prompt example: ', typeof promptValue); //default type for prompt is string and it will show user's inputted text type.
 
 //_________________________________________
 
@@ -84,6 +71,18 @@ console.log('math example 5: ', number2);
 number2++ //post increment (number2 = number2 + 1).
 --number2 //pre decrement.
 number2-- //post decrement (number2 = number2 - 1).
+
+//________________________________________
+
+//*** 5.Primitive and special data type *** 
+
+let name = 'JavaScript'; //String Literal
+let age = 22; //number Literal
+let isApproved = true; //boolean Literal
+let middleName; //undefined 
+let middleName2 = undefined; //this is also undefined type value.
+let selectOptions = null; //the value of this variable is null and the type is object.
+
 
 
 
