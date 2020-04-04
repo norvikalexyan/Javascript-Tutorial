@@ -27,7 +27,16 @@ console.log('variable example 3: ', name1, age1, married1);
 
 //____________________________________________
 
-//*** 3. Alert, prompt, Confirm ***
+//*** 3.Constant *** 
+//value of constant cannot change
+
+//example:
+const interestRate = 0.3;
+//interestRate = 1; //it will be error here.
+console.log('constant example:', interestRate);
+//___________________________________________
+
+//*** 4. Alert, prompt, Confirm ***
 
 alert('This is alert window');
 var conf = confirm('Are you sure??');
@@ -39,7 +48,7 @@ console.log('type of prompt example: ', typeof promptValue); //default type for 
 
 //_________________________________________
 
-//*** 4. Math operations *** 
+//*** 5. Math operations *** 
 
 //+, -, /, *, ++, --, +=, -=, *=, /=, **, %
 
@@ -74,7 +83,7 @@ number2-- //post decrement (number2 = number2 - 1).
 
 //________________________________________
 
-//*** 5.Primitive and special data type *** 
+//*** 6.Primitive and special data type *** 
 
 let name = 'JavaScript'; //String Literal
 let age = 22; //number Literal
@@ -82,6 +91,25 @@ let isApproved = true; //boolean Literal
 let middleName; //undefined 
 let middleName2 = undefined; //this is also undefined type value.
 let selectOptions = null; //the value of this variable is null and the type is object.
+
+//_____________________________________
+
+//*** 7.Object ***
+
+//example:
+let person = {
+    name: 'Norvik', //name is key and Norvik is the value of the key
+    age: 22
+}; //because it is variable we put ';' after {}.
+console.log('object example 1:', person);
+console.log('object example: ', person.name);
+console.log('type of object example: ', typeof person);
+
+person.name = 'John'; //Dot notation.
+
+person['name'] = 'Sam'; //Bracket notation.
+
+
 
 
 

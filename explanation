@@ -20,7 +20,7 @@ name of variable:
 
 ________________________________________________________
 
-* 5. Data type:
+* 6. Data type:
 There are 6 basic data type in JavaScript which can be divided into three main categories:
 1.Primitive(primary)     2.composite(reference)      3.special data type
 
@@ -38,3 +38,15 @@ boolean data type: The boolean data type can hold only 2 values, true and false;
 undefined data type: The undefined data type can only have the special value of undefined that means variable has not been assigned a value.
 
 null data type: A null means that there is no value.
+
+______________________________________________________
+
+composite(reference):
+composite data type can hold collection of values and more complex entities.
+
+* 7. Object:
+An object contains properties, defined as a key-value pair, a property key is always a string but the type can be anything.
+
+There are 2 ways 2 work with object properties:
+I. Dot notation.
+II. Bracket notation.
