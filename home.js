@@ -123,6 +123,15 @@ console.log('array last index example: ', selectedColors[selectedColors.length -
 
 //___________________________________
 
+//*** 9. Array Methods *** 
+
+// toString() method:
+var selectedCity = ['Rome', 'Yerevan', 'Tbilisi', 'Berlin'];
+console.log('array toString() method example: ' + selectedCity.toString());
+
+// join():
+var selectedName = ['dom', 'nick', 'sophie'];
+console.log('array join() method example: ' + selectedName.join(" + "));
 
 
 
