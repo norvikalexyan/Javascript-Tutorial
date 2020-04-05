@@ -145,6 +145,17 @@ console.log('array push() method example: ' + selectedCountry2);
 selectedCountry2.push('Canada');
 console.log('array push() method example: ' + selectedCountry2);
 
+//shift():
+var colors = ['grey', 'gold', 'blue', 'red'];
+console.log('array shift() method example: ' + colors);
+colors.shift();
+console.log('array shift() method example: ' + colors);
+
+//unshift():
+var colors2 = ['purple', 'red', 'green', 'white'];
+console.log('array unshift() method example: ' + colors2);
+colors2.unshift('black');
+console.log('array unshift() method example: ' + colors2);
 
 
 

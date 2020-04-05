@@ -69,3 +69,7 @@ ______________________________________________________
 3. pop(): "pop()" method removes the last element of an array.
 
 4. push(): "push()" method add new element at the end of an array.
+
+5. shift(): "shift()" method is equivalent to pop() method but it's working on first element instead of the last.
+
+6. unshift(): "unshift()" method add new elements at the beginning of an array.
