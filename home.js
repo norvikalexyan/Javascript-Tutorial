@@ -186,3 +186,20 @@ console.log('array second variable of splice is: ' + selectedNumber1);
 selectedNumber1 = selectedNumber.splice(1, 2, ['splice', 'method'], 'JavaScript'); //starts from index[1], it removes 2 element and add 2 new element, one of the new element is array but it counts as a one element.
 console.log('array splice number is now: ' + selectedNumber);
 console.log('array second variable of splice is: ' + selectedNumber1);
+
+//Concat():
+
+//example:
+let a = [2, 4, 6, 8];
+let b = [1, 3, 5];
+let c = a.concat(b);
+console.log('first array of concat() example: a = ' + a);
+console.log('second array of concat() example: b = ' + b);
+console.log('third array of concat() example: c = ' + c);
+
+//slice():
+
+var d = [12, 23, 44, 56, 77, 88, 99, 100];
+var d1 = d.slice(2,4);
+console.log('main variable of slice method of array: d = ' + d);
+console.log('second variable of slice method for array: d1 = ' + d1);

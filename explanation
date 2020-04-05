@@ -82,3 +82,9 @@ ______________________________________________________
              the first parameter defines the position of the new element. (index[i])
              the second parameter defines how many parameters should be removed, we can remove elements without leaving hole in an array.
              this method returns an array with deleted items.
+
+10. concat(): "concat()" method creates a new array by merging existing array and it can take strings as an arguments.
+
+11.slice(): "slice()" method slices out a piece of an array into a new array.
+            the first parameter is the start position or index. index[i]
+            the second parameter is the finish position or index and it is not included.
