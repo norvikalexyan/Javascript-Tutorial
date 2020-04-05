@@ -166,12 +166,23 @@ console.log('array changing element example: ' + selectedUniversity);
 //Length property:
 console.log('array length property example: ' + selectedUniversity.length);
 
+//splice():
 
-
-
-
-
-
-
-
-
+//example 1:
+var selectedNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.log('array splice() Number: ' + selectedNumber);
+selectedNumber1 = selectedNumber.splice(6); //starts from index[6] until the last element.
+console.log('array splice Number is now: ' + selectedNumber);
+console.log('array second variable of splice is: ' + selectedNumber1);
+selectedNumber1 = selectedNumber.splice(2,2); //starts from index[2] and remove 2 elements.
+console.log('array splice number is now: ' + selectedNumber);
+console.log('array second variable of splice is: ' + selectedNumber1);
+selectedNumber1 = selectedNumber.splice(1,1); //starts from index[1] and remove one element.
+console.log('array splice number is now: ' + selectedNumber);
+console.log('array second variable of splice is: ' + selectedNumber1);
+selectedNumber1 = selectedNumber.splice(1, 0, 'JavaScript', 'Tutorial'); //starts from index[1], it removes nothing and add two new element from index[1].
+console.log('array splice number is now: ' + selectedNumber);
+console.log('array second variable of splice is: ' + selectedNumber1);
+selectedNumber1 = selectedNumber.splice(1, 2, ['splice', 'method'], 'JavaScript'); //starts from index[1], it removes 2 element and add 2 new element, one of the new element is array but it counts as a one element.
+console.log('array splice number is now: ' + selectedNumber);
+console.log('array second variable of splice is: ' + selectedNumber1);

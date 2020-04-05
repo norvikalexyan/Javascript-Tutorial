@@ -77,3 +77,8 @@ ______________________________________________________
 7. changing element: we can change one of the elements of an array by using index number.
 
 8. length property: it returns the length of an array.
+
+9. splice(): "splice()" method can be used to add new elements to an array.
+             the first parameter defines the position of the new element. (index[i])
+             the second parameter defines how many parameters should be removed, we can remove elements without leaving hole in an array.
+             this method returns an array with deleted items.
