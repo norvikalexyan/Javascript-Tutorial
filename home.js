@@ -133,10 +133,17 @@ console.log('array toString() method example: ' + selectedCity.toString());
 var selectedName = ['dom', 'nick', 'sophie'];
 console.log('array join() method example: ' + selectedName.join(" + "));
 
+// pop():
+var selectedCountry = ['Armenia', 'Italy', 'Germany', 'America'];
+console.log('array pop() method example: ' + selectedCountry);
+selectedCountry.pop();
+console.log('array pop() method example: ' + selectedCountry);
 
-
-
-
+//push():
+var selectedCountry2 = ['Turkey', 'Japan', 'China'];
+console.log('array push() method example: ' + selectedCountry2);
+selectedCountry2.push('Canada');
+console.log('array push() method example: ' + selectedCountry2);
 
 
 
