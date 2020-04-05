@@ -157,6 +157,16 @@ console.log('array unshift() method example: ' + colors2);
 colors2.unshift('black');
 console.log('array unshift() method example: ' + colors2);
 
+//changing element:
+var selectedUniversity = ['Oxford', 'Cambridge', 'American', 'european'];
+console.log('array changing element example: ' + selectedUniversity);
+selectedUniversity[2] = 'french';
+console.log('array changing element example: ' + selectedUniversity);
+
+//Length property:
+console.log('array length property example: ' + selectedUniversity.length);
+
+
 
 
 
