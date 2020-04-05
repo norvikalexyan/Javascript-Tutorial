@@ -50,3 +50,13 @@ An object contains properties, defined as a key-value pair, a property key is al
 There are 2 ways 2 work with object properties:
 I. Dot notation.
 II. Bracket notation.
+
+________________________________________________________
+
+* 8.array:
+array is a reference type data and it's a type of object used for storing multiple values in single variable.
+each value in array has a numeric position known as its index and it may contain any data type nd the array index start from 0.
+length and type of array is dynamic.
+
+______________________________________________________
+

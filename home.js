@@ -109,6 +109,26 @@ person.name = 'John'; //Dot notation.
 
 person['name'] = 'Sam'; //Bracket notation.
 
+//______________________________________
+
+// *** 8.Arrays ***
+
+//example 1:
+let selectedColors = ['blue', 'yellow', 'green', 'red'];
+selectedColors[4] = 'black'; //add new element to the array
+console.log('array example 1: ', selectedColors); //full array can be accessed by referring to the array name. 
+selectedColors[1] = 'brown'; //change one of the elements.
+console.log('array first index example: ', selectedColors[0]); //accessing to the first index of the array.
+console.log('array last index example: ', selectedColors[selectedColors.length - 1]); //accessing to the last index of the array.
+
+//___________________________________
+
+
+
+
+
+
+
 
 
 
