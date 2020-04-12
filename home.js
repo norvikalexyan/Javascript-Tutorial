@@ -203,3 +203,28 @@ var d = [12, 23, 44, 56, 77, 88, 99, 100];
 var d1 = d.slice(2,4);
 console.log('main variable of slice method of array: d = ' + d);
 console.log('second variable of slice method for array: d1 = ' + d1);
+
+//sort():
+
+//example 1:
+let selectedCars = ['toyota', 'bmw', 'mercedes', 'ford'];
+let sorted = selectedCars.sort();
+console.log('sort method example in array: ', selectedCars);
+console.log('sorted array is: ', sorted);
+
+//example 2:
+var numbers = [1, 4, 8, 12, 32, 89, 90];
+console.log('sort method in array example 2: ', numbers.sort(function(a, b) {
+    return a - b; //it will sort from less to more.
+}));
+
+//example 3:
+console.log('sort method in array example 3: ', numbers.sort(function(a, b) {
+    return b - a; //it will sort from more to less.
+}));
+
+//reverse():
+
+var color = ['red', 'blue', 'yellow', 'purple'];
+console.log('reverse method an array: ', color.reverse());
+

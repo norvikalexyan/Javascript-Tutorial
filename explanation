@@ -88,3 +88,7 @@ ______________________________________________________
 11.slice(): "slice()" method slices out a piece of an array into a new array.
             the first parameter is the start position or index. index[i]
             the second parameter is the finish position or index and it is not included.
+
+12. sort(): "sort()" method can sort an array alphabetically.
+
+13. reverse(): "reverse()" method sort an array in descending order.
