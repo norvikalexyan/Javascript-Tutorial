@@ -228,3 +228,17 @@ console.log('sort method in array example 3: ', numbers.sort(function(a, b) {
 var color = ['red', 'blue', 'yellow', 'purple'];
 console.log('reverse method an array: ', color.reverse());
 
+//indexOf():
+
+let selectedGadget = ['laptop', 'ipad', 'mobile', 'computer'];
+console.log('indexOf method in an array example: ',selectedGadget.indexOf('mobile'));
+//lastindexOf():
+console.log('lastindexOf method in an array example: ', selectedGadget.lastIndexOf('ipad'));
+
+//include():
+
+let includeMethod = ['hello', 'hi', 'hi there', 'hello world'];
+console.log('include method in array example: ', includeMethod.includes('hello'));
+
+//___________________________________________
+

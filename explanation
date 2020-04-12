@@ -92,3 +92,10 @@ ______________________________________________________
 12. sort(): "sort()" method can sort an array alphabetically.
 
 13. reverse(): "reverse()" method sort an array in descending order.
+
+14. indexOf(): "indexOf()" method searches an array for an element value and returns it position.
+    lastindexOf(): it is the same as indexOf(), but it returns the position of the last occurrence of the specified element.
+
+15. include(): "include()" method determines whether an array contains a specified element 
+
+________________________________________________________
