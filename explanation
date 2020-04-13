@@ -20,9 +20,13 @@ name of variable:
 
 ________________________________________________________
 
-*  expression in js is something that produces a value.
+3. constant:
+if we don't want to change the value const will be our default choice.
+________________________________________________________
 
-* comparison operator is a boolean it's true or false.
+5. math operators:
+expression in js is something that produces a value.
+comparison operator is a boolean it's true or false.
 
 ________________________________________________________
 
@@ -36,6 +40,7 @@ There are 6 basic data type in JavaScript which can be divided into three main c
 default type of variables are undefined.
 
 string data type: The string data type is used to represent a textual data and there are created using single or double quotes.
+                  string is a sequence of characters.
 
 number data type: The number data type is used to represent positive and negative numbers with or without decimal place and includes some special values which is infinity, -infinity and NaN(not a number).
 
@@ -63,6 +68,7 @@ ________________________________________________________
 array is a reference type data and it's a type of object used for storing multiple values in single variable.
 each value in array has a numeric position known as its index and it may contain any data type nd the array index start from 0.
 length and type of array is dynamic.
+an array is a data structure that we use to represent a list of items.
 
 ______________________________________________________
 
