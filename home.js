@@ -51,35 +51,38 @@ console.log('type of prompt example: ', typeof promptValue); //default type for 
 //*** 5. Math operations *** 
 
 //+, -, /, *, ++, --, +=, -=, *=, /=, **, %
-
 //Logical operations:
 //&&, ||, !
 
 //example 1:
-var number1 = 7;
-console.log('math example 1: ', number1);
+let x = 10;
+let y = 3;
+console.log('arithmetic operators:', x + y); //summation
+console.log('arithmetical operators:', x - y); //subtraction
+console.log('arithmetical operators:', x * y); //multiplication
+console.log('arithmetical operators:', x / y); //division
+console.log('arithmetical operators:', x % y); //reminder of division 
+console.log('arithmetical operators:', x ** y); //x to the power of y
+//increment (++)
+console.log('increment arithmetical operator:', ++x);
+//decrement (--)
+console.log('decrement arithmetical operator:', --x);
 
-//example 2:
-var number2 = 10
-var number3 = number2 + 10;
-console.log('math example 2: ', number3);
+//assignment operators
+x += 5;
+console.log('assignment operator:', x);
+y *= 3;
+console.log('assignment operator:', y);
 
-//example 3:
-var number4 = number2 ** 3;
-console.log('math example 3: ', number4);
+//comparison and relational operator
+let z = 1;
+console.log('relational operator:', z > 0);
+console.log('relational operator:', z >= 1);
+console.log('relational operator:', z < 1);
+console.log('relational operator:', z <= 1);
 
-//example 4:
-console.log('math example 4: ', number2 % 2);
-
-//example 5:
-number2 += 20; 
-console.log('math example 5: ', number2);
-
-//decrement and increment operators:
-++number2 // pre increment.
-number2++ //post increment (number2 = number2 + 1).
---number2 //pre decrement.
-number2-- //post decrement (number2 = number2 - 1).
+//equality operator
+console.log('equality operator:', z === x);
 
 //________________________________________
 

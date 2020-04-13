@@ -20,6 +20,12 @@ name of variable:
 
 ________________________________________________________
 
+*  expression in js is something that produces a value.
+
+* comparison operator is a boolean it's true or false.
+
+________________________________________________________
+
 * 6. Data type:
 There are 6 basic data type in JavaScript which can be divided into three main categories:
 1.Primitive(primary)     2.composite(reference)      3.special data type
