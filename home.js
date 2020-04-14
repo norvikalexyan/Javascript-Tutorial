@@ -1,9 +1,9 @@
 // *** 1. Console log ***
 
 //we want a log a message on a console.
-console.log('Console log example: hello');
-console.warn('This is a warning message');
-console.error('This is a error message');
+console.log(`Console log example: hello`);
+console.warn(`This is a warning message`);
+console.error(`This is a error message`);
 var text = 'JavaScript Tutorial';
 console.log(typeof text); //this will print type of text variable.
 
@@ -14,16 +14,16 @@ console.log(typeof text); //this will print type of text variable.
 //example 1:
 let firstName = 'Norvik';
 let lastName = 'Alexian';
-console.log('variable example 1: ', firstName, lastName);
+console.log(`variable example 1: ${firstName} ${lastName}`);
 
 //example 2:
 var userName; //declaring variable.
 userName = 'Sam Smith'; //assigning value.
-console.log('variable example 2: ', userName);
+console.log(`variable example 2: ${userName}`);
 
 //example 3 (declaring multiple variables)
 var name1 = 'John', age1 = 21, married1 = false;
-console.log('variable example 3: ', name1, age1, married1);
+console.log(`variable example 3: ${name1} ${age1} ${married1}`);
 
 //____________________________________________
 
@@ -33,18 +33,18 @@ console.log('variable example 3: ', name1, age1, married1);
 //example:
 const interestRate = 0.3;
 //interestRate = 1; //it will be error here.
-console.log('constant example:', interestRate);
+console.log(`constant example: ${interestRate}`);
 //___________________________________________
 
 //*** 4. Alert, prompt, Confirm ***
 
-alert('This is alert window');
+alert(`This is alert window`);
 var conf = confirm('Are you sure??');
-console.log('Confirm example: ', conf); //this example will show one window with 2 buttons, if we press ok it will show us true in console and if we press cancel it will show false.
+console.log(`confirm example: ${conf}`); //this example will show one window with 2 buttons, if we press ok it will show us true in console and if we press cancel it will show false.
 
 var promptValue = prompt('this is a prompt example:');
-console.log('prompt example: ', promptValue); //this will show what our user input.
-console.log('type of prompt example: ', typeof promptValue); //default type for prompt is string and it will show user's inputted text type.
+console.log(`prompt example: ${promptValue}`); //this will show what our user input.
+console.log(`type of prompt example: ${typeof promptValue}`); //default type for prompt is string and it will show user's inputted text type.
 
 //_________________________________________
 
@@ -57,7 +57,7 @@ console.log('type of prompt example: ', typeof promptValue); //default type for 
 //example 1:
 let x = 10;
 let y = 3;
-console.log('arithmetic operators:', x + y); //summation
+console.log(`arithmetic operators: ${x + y}`); //summation
 console.log('arithmetical operators:', x - y); //subtraction
 console.log('arithmetical operators:', x * y); //multiplication
 console.log('arithmetical operators:', x / y); //division
@@ -76,7 +76,7 @@ console.log('assignment operator:', y);
 
 //comparison and relational operator
 let z = 1;
-console.log('relational operator:', z > 0);
+console.log(`relational operator: ${z > 0}`);
 console.log('relational operator:', z >= 1);
 console.log('relational operator:', z < 1);
 console.log('relational operator:', z <= 1);
