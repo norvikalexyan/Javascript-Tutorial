@@ -111,3 +111,15 @@ ______________________________________________________
 15. include(): "include()" method determines whether an array contains a specified element 
 
 ________________________________________________________
+
+* 10. Functions:
+
+function is a set of statement that performs a task or calculate a value.
+
+function executes a block of code and since functions are objects it is possible to assign them to variable.
+
+basically it is a piece of code that do one or more actions
+
+parameter of a function is only meaningful in that function.
+
+if we don't give a value to our argument by default is undefined.

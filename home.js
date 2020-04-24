@@ -245,3 +245,18 @@ console.log('include method in array example: ', includeMethod.includes('hello')
 
 //___________________________________________
 
+//*** 10. Functions ***
+
+//example 1:
+//greet is our function name, 'name' is an input (parameter) for this function
+function greet(name, lName) {
+    console.log(`hello ${name} ${lName}`);
+}
+greet('Norvik', 'Alexian'); //Norvik is an argument to the greet function
+
+//example 2:
+function square(squareNumber) {
+    return squareNumber * squareNumber;
+}
+let selectedNumber2 = square(2);
+console.log('function second example: ' , selectedNumber2);
