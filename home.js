@@ -260,3 +260,21 @@ function square(squareNumber) {
 }
 let selectedNumber2 = square(2);
 console.log('function second example: ' , selectedNumber2);
+
+//example 3:
+function fn(argv1, argv2) {
+    if(argv1 > argv2) {
+        console.log('in this function first argument is bigger than the second one');
+    } else {
+        console.log('in this function the second argument is bigger than the first one');
+    }
+}
+fn(6, 5);
+
+//example 4:
+function percentage(x, y) {
+    let result = x * y / 100;
+    return result;
+}
+let result = percentage(100, 50);
+console.log('the result of our function example is:', result);
