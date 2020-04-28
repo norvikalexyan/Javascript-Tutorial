@@ -2,6 +2,11 @@
 JavaScript is a scripting or programming language that allow us to execute complex features on web pages and we are enable to create dynamically updating content,
 every time a page does more than just sit there and display static information for you to look at, display timely content updates, interactive maps, animated 2D/3D and etc.
 
+JavaScript is a lightweight interpreted programming language. the interpreted language is the language that the code is run from top to bottom and the result of running the code is immediately returned, we don't have to transform the code into different form before the browser runs it and the code is received in its programmer-friendly text form and processed directly from that,
+The web browser receives the JavaScript code in its original text form and runs the script from that,
+JavaScript interpreters actually use a technique called 'just-in-time-compiling' to improve performance,
+JavaScript source code gets collect into faster, binary format while the script is being used so that it can run as quickly as possible.
+
 ______________________________________________________
 
 * what can JavaScript really do?
@@ -24,7 +29,6 @@ IV. Audio and Video APIs will allow us to do really interesting things with mult
 
 2. Third party APIs:
 Third party APIs are not built into browser by default and you have to grab their code and information from somewhere on the Web.
-
 
 ______________________________________________________
 
