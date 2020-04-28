@@ -1,11 +1,47 @@
+* what is JavaScript?
+JavaScript is a scripting or programming language that allow us to execute complex features on web pages and we are enable to create dynamically updating content,
+every time a page does more than just sit there and display static information for you to look at, display timely content updates, interactive maps, animated 2D/3D and etc.
+
+______________________________________________________
+
+* what can JavaScript really do?
+the core client side JavaScript language consist of some common programming features that allow us to do things like:
+1.Store useful values inside variables.
+2.Operations on piece of text (known as 'string' in programming).
+3.Running code in response to certain events occurring on a web page.
+
+* The functionality built on top of the client-side in JavaScript language is called 'Application Programming Interfaces (APIs)' provides us with extra superpowers to use in JavaScript code.
+APIs are ready-made sets of code building blocks that allow a developer to execute programs that would be hard or impossible to execute.
+APIs has 2 categories:
+
+1. Browser APIs:
+Browser APIs are built into our web browser and are able to expose data from the surrounding computer environment or do other useful complex things like:
+I. The DOM (Document Object Model) API allow us to retouch HTML and CSS, creating and removing and changing HTML, dynamically applying new styles to our page,
+    every time we see a popup window appear on a page or some new content displayed, that's the DOM action.
+II. The Geolocation API recover geographical information, this is how google maps is able to find our location on a map.
+III. The 'Canvas' and 'WebGL' APIs allow us to create animated 2D/3D graphics.
+IV. Audio and Video APIs will allow us to do really interesting things with multimedia.
+
+2. Third party APIs:
+Third party APIs are not built into browser by default and you have to grab their code and information from somewhere on the Web.
+
+
+______________________________________________________
+
 * JavaScript is dynamic language because it can change the type of variable.
 
 * in JavaScript we don't have types of numbers like int, float and ... we have only 'number' type.
 
 ______________________________________________________
 
+* 1. console.log():
+the console method log() outputs a message to the web console, 
+the message may be a single string or any one or more JavaScript objects.
+______________________________________________________
+
 * 2.Variables:
-we can use variable to store data  temporary.
+A variable is a named location for storing a value and that value can be accessed through a predetermined name.
+we can use variable to store data temporary.
 variable are symbolic name of values.
 values of a variable can change.
 we will write a variable with 'let' or 'var'.
@@ -21,6 +57,7 @@ name of variable:
 ________________________________________________________
 
 3. constant:
+The value of a constant cannot be changed through reassignment and it cannot be redeclare.
 if we don't want to change the value const will be our default choice.
 ________________________________________________________
 
