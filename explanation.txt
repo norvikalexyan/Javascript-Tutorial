@@ -188,6 +188,10 @@ ______________________________________________________
 
 * 12. Logical operators:
 
+Logical operators are typically used with boolean values,
+when they are, they return boolean value, however (&&) and (||) operators actually return the value of one of the specified operands,
+so if these operators are used with non-boolean values, they will return a non-boolean value.
+
 logical AND (&&): returns TRUE if both operands are TRUE
 
 logical OR (||): returns TRUE if one of the operands are TRUE
