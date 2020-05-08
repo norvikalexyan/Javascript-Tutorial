@@ -197,3 +197,21 @@ logical AND (&&): returns TRUE if both operands are TRUE
 logical OR (||): returns TRUE if one of the operands are TRUE
 
 NOT (!): what ever we give to NOT operator it will give us the opposite.
+
+______________________________________________________
+
+* 13. non-boolean logical operators:
+
+the result of a logical expression is not necessarily true or false, that depends on value of operands we have.
+
+the true and false values of boolean are called 'truthy' and 'falsy'.
+
+in JavaScript, a truthy is a value that is considered true when encountered in a boolean context, All values are truthy unless they are defined as falsy,
+
+'falsy': undefined, null, 0, false, '', NaN
+
+As logical expressions are evaluated left to right, they are tested for possible 'short-circuit' evaluation using the following rules:
+(some falsy expression) && expr. -> is short-circuit evaluated to the falsy expression.
+(some truthy expression) || expr. -> is short-circuit evaluated to the truthy expression.
+
+short-circuit means that the exp. parts above are not evaluated.

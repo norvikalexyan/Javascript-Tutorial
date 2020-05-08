@@ -312,3 +312,18 @@ console.log('Eligible', eligibleForLoan2);
 // NOT (!)
 let applicationRefused =  !eligibleForLoan2; //if eligibleForLoan is true this not operator will convert that to false
 console.log('Application Refused', applicationRefused);
+
+//_____________________________________
+
+//*** 13. non-boolean logical operators *** 
+
+console.log('non-boolean logical operators:', false || 'Norvik');
+console.log('non-boolean logical operators:', false || 1);
+console.log('non-boolean logical operators:', false || 1 || 2);  //short-circuiting
+
+//example:
+//let userColor = 'red';
+let userColor = undefined;
+let defaultColor = 'blue';
+let currentColor = userColor || defaultColor;
+console.log('non-boolean logical operators example:', currentColor);
