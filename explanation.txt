@@ -173,3 +173,13 @@ basically it is a piece of code that do one or more actions
 parameter of a function is only meaningful in that function.
 
 if we don't give a value to our argument by default is undefined.
+
+______________________________________________________
+
+* 11. Ternary or conditional operators:
+
+The Ternary or conditional operator is the only JavaScript operator that takes three operands:
+a condition followed by a question mark (?), then an expression to execute if the condition is true followed by a colon (:), and finally the expression to execute if the condition is false,
+this operator is frequently used as a shortcut for the 'if' statement.
+
+condition ? expIfTrue : expIfFalse

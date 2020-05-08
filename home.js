@@ -281,3 +281,13 @@ function percentage(x, y) {
 }
 let result = percentage(100, 50);
 console.log('the result of our function example is:', result);
+
+//______________________________________
+
+//*** 11. Ternary or conditional operators *** 
+
+//if a customer has more than 100 points they are a 'gold' customer, otherwise they are 'silver' customer.
+let points = 110;
+let type = points > 100 ? 'gold' : 'silver'; 
+
+console.log('ternary operator:', type);
