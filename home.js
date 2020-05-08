@@ -291,3 +291,24 @@ let points = 110;
 let type = points > 100 ? 'gold' : 'silver'; 
 
 console.log('ternary operator:', type);
+
+//____________________________________
+
+//*** 12. Logical operators *** 
+
+//Logical AND (&&)
+let highIncome = true;
+let goodCreditScore = true;
+let eligibleForLoan = highIncome && goodCreditScore;
+
+console.log('Logical AND:', eligibleForLoan);
+
+//logical OR (||)
+let highIncome2 = false;
+let goodCreditScore2 = false;
+let eligibleForLoan2 = highIncome2 || goodCreditScore2;
+console.log('Eligible', eligibleForLoan2);
+
+// NOT (!)
+let applicationRefused =  !eligibleForLoan2; //if eligibleForLoan is true this not operator will convert that to false
+console.log('Application Refused', applicationRefused);

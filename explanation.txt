@@ -183,3 +183,13 @@ a condition followed by a question mark (?), then an expression to execute if th
 this operator is frequently used as a shortcut for the 'if' statement.
 
 condition ? expIfTrue : expIfFalse
+
+______________________________________________________
+
+* 12. Logical operators:
+
+logical AND (&&): returns TRUE if both operands are TRUE
+
+logical OR (||): returns TRUE if one of the operands are TRUE
+
+NOT (!): what ever we give to NOT operator it will give us the opposite.
