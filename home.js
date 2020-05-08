@@ -82,7 +82,10 @@ console.log('relational operator:', z < 1);
 console.log('relational operator:', z <= 1);
 
 //equality operator
-console.log('equality operator:', z === x);
+console.log('equality operator:', z === x); //strict equality operators (same Type + same Value)
+console.log('lose equality operators:', 1 == 1); //lose equality operator (only same Value)
+console.log('lose equality operators:', '1' == 1); //lose equality operator (only same Value)
+console.log('lose equality operators:', true == 1); //lose equality operator (only same Value) 
 
 //________________________________________
 
