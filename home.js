@@ -9,7 +9,7 @@ console.log(typeof text); //this will print type of text variable.
 
 //_____________________________________________
 
-//*** 2. Variable *** 
+//*** 2. Variable ***
 
 //example 1:
 let firstName = 'Norvik';
@@ -22,12 +22,14 @@ userName = 'Sam Smith'; //assigning value.
 console.log(`variable example 2: ${userName}`);
 
 //example 3 (declaring multiple variables)
-var name1 = 'John', age1 = 21, married1 = false;
+var name1 = 'John',
+	age1 = 21,
+	married1 = false;
 console.log(`variable example 3: ${name1} ${age1} ${married1}`);
 
 //____________________________________________
 
-//*** 3.Constant *** 
+//*** 3.Constant ***
 //value of constant cannot change
 
 //example:
@@ -48,7 +50,7 @@ console.log(`type of prompt example: ${typeof promptValue}`); //default type for
 
 //_________________________________________
 
-//*** 5. Math operations *** 
+//*** 5. Math operations ***
 
 //+, -, /, *, ++, --, +=, -=, *=, /=, **, %
 //Logical operations:
@@ -61,7 +63,7 @@ console.log(`arithmetic operators: ${x + y}`); //summation
 console.log('arithmetical operators:', x - y); //subtraction
 console.log('arithmetical operators:', x * y); //multiplication
 console.log('arithmetical operators:', x / y); //division
-console.log('arithmetical operators:', x % y); //reminder of division 
+console.log('arithmetical operators:', x % y); //reminder of division
 console.log('arithmetical operators:', x ** y); //x to the power of y
 //increment (++)
 console.log('increment arithmetical operator:', ++x);
@@ -85,16 +87,16 @@ console.log('relational operator:', z <= 1);
 console.log('equality operator:', z === x); //strict equality operators (same Type + same Value)
 console.log('lose equality operators:', 1 == 1); //lose equality operator (only same Value)
 console.log('lose equality operators:', '1' == 1); //lose equality operator (only same Value)
-console.log('lose equality operators:', true == 1); //lose equality operator (only same Value) 
+console.log('lose equality operators:', true == 1); //lose equality operator (only same Value)
 
 //________________________________________
 
-//*** 6.Primitive and special data type *** 
+//*** 6.Primitive and special data type ***
 
 let name = 'JavaScript'; //String Literal
 let age = 22; //number Literal
 let isApproved = true; //boolean Literal
-let middleName; //undefined 
+let middleName; //undefined
 let middleName2 = undefined; //this is also undefined type value.
 let selectOptions = null; //the value of this variable is null and the type is object.
 
@@ -104,8 +106,8 @@ let selectOptions = null; //the value of this variable is null and the type is o
 
 //example:
 let person = {
-    name: 'Norvik', //name is key and Norvik is the value of the key
-    age: 22
+	name: 'Norvik', //name is key and Norvik is the value of the key
+	age: 22,
 }; //because it is variable we put ';' after {}.
 console.log('object example 1:', person);
 console.log('object example: ', person.name);
@@ -122,14 +124,17 @@ person['name'] = 'Sam'; //Bracket notation.
 //example 1:
 let selectedColors = ['blue', 'yellow', 'green', 'red'];
 selectedColors[4] = 'black'; //add new element to the array
-console.log('array example 1: ', selectedColors); //full array can be accessed by referring to the array name. 
+console.log('array example 1: ', selectedColors); //full array can be accessed by referring to the array name.
 selectedColors[1] = 'brown'; //change one of the elements.
 console.log('array first index example: ', selectedColors[0]); //accessing to the first index of the array.
-console.log('array last index example: ', selectedColors[selectedColors.length - 1]); //accessing to the last index of the array.
+console.log(
+	'array last index example: ',
+	selectedColors[selectedColors.length - 1]
+); //accessing to the last index of the array.
 
 //___________________________________
 
-//*** 9. Array Methods *** 
+//*** 9. Array Methods ***
 
 // toString() method:
 var selectedCity = ['Rome', 'Yerevan', 'Tbilisi', 'Berlin'];
@@ -137,7 +142,7 @@ console.log('array toString() method example: ' + selectedCity.toString());
 
 // join():
 var selectedName = ['dom', 'nick', 'sophie'];
-console.log('array join() method example: ' + selectedName.join(" + "));
+console.log('array join() method example: ' + selectedName.join(' + '));
 
 // pop():
 var selectedCountry = ['Armenia', 'Italy', 'Germany', 'America'];
@@ -173,29 +178,30 @@ console.log('array changing element example: ' + selectedUniversity);
 console.log('array length property example: ' + selectedUniversity.length);
 
 //splice():
-
-//example 1:
 var selectedNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 console.log('array splice() Number: ' + selectedNumber);
 selectedNumber1 = selectedNumber.splice(6); //starts from index[6] until the last element.
 console.log('array splice Number is now: ' + selectedNumber);
 console.log('array second variable of splice is: ' + selectedNumber1);
-selectedNumber1 = selectedNumber.splice(2,2); //starts from index[2] and remove 2 elements.
+selectedNumber1 = selectedNumber.splice(2, 2); //starts from index[2] and remove 2 elements.
 console.log('array splice number is now: ' + selectedNumber);
 console.log('array second variable of splice is: ' + selectedNumber1);
-selectedNumber1 = selectedNumber.splice(1,1); //starts from index[1] and remove one element.
+selectedNumber1 = selectedNumber.splice(1, 1); //starts from index[1] and remove one element.
 console.log('array splice number is now: ' + selectedNumber);
 console.log('array second variable of splice is: ' + selectedNumber1);
 selectedNumber1 = selectedNumber.splice(1, 0, 'JavaScript', 'Tutorial'); //starts from index[1], it removes nothing and add two new element from index[1].
 console.log('array splice number is now: ' + selectedNumber);
 console.log('array second variable of splice is: ' + selectedNumber1);
-selectedNumber1 = selectedNumber.splice(1, 2, ['splice', 'method'], 'JavaScript'); //starts from index[1], it removes 2 element and add 2 new element, one of the new element is array but it counts as a one element.
+selectedNumber1 = selectedNumber.splice(
+	1,
+	2,
+	['splice', 'method'],
+	'JavaScript'
+); //starts from index[1], it removes 2 element and add 2 new element, one of the new element is array but it counts as a one element.
 console.log('array splice number is now: ' + selectedNumber);
 console.log('array second variable of splice is: ' + selectedNumber1);
 
 //Concat():
-
-//example:
 let a = [2, 4, 6, 8];
 let b = [1, 3, 5];
 let c = a.concat(b);
@@ -204,9 +210,8 @@ console.log('second array of concat() example: b = ' + b);
 console.log('third array of concat() example: c = ' + c);
 
 //slice():
-
 var d = [12, 23, 44, 56, 77, 88, 99, 100];
-var d1 = d.slice(2,4);
+var d1 = d.slice(2, 4);
 console.log('main variable of slice method of array: d = ' + d);
 console.log('second variable of slice method for array: d1 = ' + d1);
 
@@ -220,31 +225,43 @@ console.log('sorted array is: ', sorted);
 
 //example 2:
 var numbers = [1, 4, 8, 12, 32, 89, 90];
-console.log('sort method in array example 2: ', numbers.sort(function(a, b) {
-    return a - b; //it will sort from less to more.
-}));
+console.log(
+	'sort method in array example 2: ',
+	numbers.sort(function (a, b) {
+		return a - b; //it will sort from less to more.
+	})
+);
 
 //example 3:
-console.log('sort method in array example 3: ', numbers.sort(function(a, b) {
-    return b - a; //it will sort from more to less.
-}));
+console.log(
+	'sort method in array example 3: ',
+	numbers.sort(function (a, b) {
+		return b - a; //it will sort from more to less.
+	})
+);
 
 //reverse():
-
 var color = ['red', 'blue', 'yellow', 'purple'];
 console.log('reverse method an array: ', color.reverse());
 
 //indexOf():
-
 let selectedGadget = ['laptop', 'ipad', 'mobile', 'computer'];
-console.log('indexOf method in an array example: ',selectedGadget.indexOf('mobile'));
+console.log(
+	'indexOf method in an array example: ',
+	selectedGadget.indexOf('mobile')
+);
 //lastindexOf():
-console.log('lastindexOf method in an array example: ', selectedGadget.lastIndexOf('ipad'));
+console.log(
+	'lastindexOf method in an array example: ',
+	selectedGadget.lastIndexOf('ipad')
+);
 
 //include():
-
 let includeMethod = ['hello', 'hi', 'hi there', 'hello world'];
-console.log('include method in array example: ', includeMethod.includes('hello'));
+console.log(
+	'include method in array example: ',
+	includeMethod.includes('hello')
+);
 
 //___________________________________________
 
@@ -253,48 +270,52 @@ console.log('include method in array example: ', includeMethod.includes('hello')
 //example 1:
 //greet is our function name, 'name' is an input (parameter) for this function
 function greet(name, lName) {
-    console.log(`hello ${name} ${lName}`);
+	console.log(`hello ${name} ${lName}`);
 }
 greet('Norvik', 'Alexian'); //Norvik is an argument to the greet function
 
 //example 2:
 function square(squareNumber) {
-    return squareNumber * squareNumber;
+	return squareNumber * squareNumber;
 }
 let selectedNumber2 = square(2);
-console.log('function second example: ' , selectedNumber2);
+console.log('function second example: ', selectedNumber2);
 
 //example 3:
 function fn(argv1, argv2) {
-    if(argv1 > argv2) {
-        console.log('in this function first argument is bigger than the second one');
-    } else {
-        console.log('in this function the second argument is bigger than the first one');
-    }
+	if (argv1 > argv2) {
+		console.log(
+			'in this function first argument is bigger than the second one'
+		);
+	} else {
+		console.log(
+			'in this function the second argument is bigger than the first one'
+		);
+	}
 }
 fn(6, 5);
 
 //example 4:
 function percentage(x, y) {
-    let result = x * y / 100;
-    return result;
+	let result = (x * y) / 100;
+	return result;
 }
 let result = percentage(100, 50);
 console.log('the result of our function example is:', result);
 
 //______________________________________
 
-//*** 11. Ternary or conditional operators *** 
+//*** 11. Ternary or conditional operators ***
 
 //if a customer has more than 100 points they are a 'gold' customer, otherwise they are 'silver' customer.
 let points = 110;
-let type = points > 100 ? 'gold' : 'silver'; 
+let type = points > 100 ? 'gold' : 'silver';
 
 console.log('ternary operator:', type);
 
 //____________________________________
 
-//*** 12. Logical operators *** 
+//*** 12. Logical operators ***
 
 //Logical AND (&&)
 let highIncome = true;
@@ -310,16 +331,16 @@ let eligibleForLoan2 = highIncome2 || goodCreditScore2;
 console.log('Eligible', eligibleForLoan2);
 
 // NOT (!)
-let applicationRefused =  !eligibleForLoan2; //if eligibleForLoan is true this not operator will convert that to false
+let applicationRefused = !eligibleForLoan2; //if eligibleForLoan is true this not operator will convert that to false
 console.log('Application Refused', applicationRefused);
 
 //_____________________________________
 
-//*** 13. non-boolean logical operators *** 
+//*** 13. non-boolean logical operators ***
 
 console.log('non-boolean logical operators:', false || 'Norvik');
 console.log('non-boolean logical operators:', false || 1);
-console.log('non-boolean logical operators:', false || 1 || 2);  //short-circuiting
+console.log('non-boolean logical operators:', false || 1 || 2); //short-circuiting
 
 //example:
 //let userColor = 'red';
@@ -327,3 +348,38 @@ let userColor = undefined;
 let defaultColor = 'blue';
 let currentColor = userColor || defaultColor;
 console.log('non-boolean logical operators example:', currentColor);
+
+//_____________________________________
+
+// *** 14. Bitwise Operators: ***
+
+/*
+    Bitwise operators in JavaScript work on individual bits of number
+    1 = 00000001 -> 8 bit or 1 byte of information 
+    2 = 00000010
+    Bitwise 'OR' = 00000011 = 3
+    Bitwise 'AND' = 00000000 = 0
+*/
+
+console.log('Bitwise "OR":', 1 | 2); // expected 3
+console.log('Bitwise "AND":', 1 & 2); // expected 0
+
+/*
+    example:
+        we will use one byte of information to determine what kind of permission user can have:
+        Read, Write and Execute
+*/
+
+const readPermission = 4;
+const writePermission = 2;
+const executePermission = 1;
+
+let myPermission = 0;
+myPermission = myPermission | readPermission | writePermission;
+
+console.log('Bitwise example:', myPermission);
+
+// create one variable that check if we have read permission type yes otherwise type no
+let myMessage = myPermission & readPermission ? 'yes' : 'no';
+
+console.log('Do we have read permission?', myMessage);
