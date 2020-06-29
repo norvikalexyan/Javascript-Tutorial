@@ -383,3 +383,13 @@ console.log('Bitwise example:', myPermission);
 let myMessage = myPermission & readPermission ? 'yes' : 'no';
 
 console.log('Do we have read permission?', myMessage);
+
+//_____________________________________
+
+// *** Precedence Operators: ***
+
+let s = 2 + 3 * 4;
+console.log('Precedence Operator:', s); // expected 14
+
+let r = (2 + 3) * 4;
+console.log('Precedence Operator:', r); // expected 20
