@@ -462,3 +462,17 @@ while (i <= 5) {
 }
 
 //_____________________________________
+
+// *** 20.Do-While loop: ***
+
+console.log('Do-while loop example:');
+
+let j = 9;
+do {
+	if (j % 2 !== 0) {
+		console.log(j); // expected 9
+		j++;
+	}
+} while (j <= 5);
+
+//_____________________________________

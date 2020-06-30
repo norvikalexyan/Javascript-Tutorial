@@ -313,3 +313,10 @@ ______________________________________________________
     }
 
 ______________________________________________________
+
+* 20. Do-While loop:
+    The key difference between 'while loop' and 'do-while loop' is that if condition is false at least one time the statement will print it out.
+
+    do {
+        statement;
+    } while (condition)
