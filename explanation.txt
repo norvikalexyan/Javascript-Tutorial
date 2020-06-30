@@ -292,3 +292,12 @@ ______________________________________________________
     }
 
 ______________________________________________________
+
+* 18. For loop:
+    sometimes we want repeat an action several time
+
+    for (initialExpression; condition; incrementExpression) {
+        statement
+    }
+
+______________________________________________________

@@ -434,3 +434,19 @@ else if (role === 'moderator') console.log('Moderator user');
 else console.log('Unknown user');
 
 //_____________________________________
+
+// *** 18.For loop: ***
+
+console.log('for loop example:');
+
+// example 1:
+for (let i = 0; i < 5; i++) {
+	console.log('hello world', i);
+}
+
+// example 2:
+for (let i = 1; i <= 5; i++) {
+	if (i % 2 !== 0) console.log(i);
+}
+
+//_____________________________________
