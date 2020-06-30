@@ -301,3 +301,15 @@ ______________________________________________________
     }
 
 ______________________________________________________
+
+* 19. While loop:
+    The key difference between 'for loop' and 'while loop' is that in for loops the loop variable is a part of loop itself,
+    but in while loop we have to declare it externally
+
+    initialExpression;
+    while (condition) {
+        statement;
+        incrementExpression;
+    }
+
+______________________________________________________
