@@ -386,10 +386,29 @@ console.log('Do we have read permission?', myMessage);
 
 //_____________________________________
 
-// *** Precedence Operators: ***
+// *** 15.Precedence Operators: ***
 
 let s = 2 + 3 * 4;
 console.log('Precedence Operator:', s); // expected 14
 
 let r = (2 + 3) * 4;
 console.log('Precedence Operator:', r); // expected 20
+
+//_____________________________________
+
+// *** 16.If...else: ***
+
+/*
+	example:
+		if hour is between 6am and 12pm: Good morning
+		if hour is between 12pm and 6pm: Good afternoon
+		otherwise: Good evening
+*/
+
+let hour = 10;
+
+if (hour > 6 && hour < 12) console.log('Good morning');
+else if (hour >= 12 && hour < 18) console.log('Good afternoon');
+else console.log('Good evening');
+
+//_____________________________________

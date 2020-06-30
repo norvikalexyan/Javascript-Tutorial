@@ -259,3 +259,24 @@ ______________________________________________________
     Note:
         with the bitwise 'OR' operator we can add permission,
         with the bitwise 'AND' operator we can check that we have that permission or not.
+
+______________________________________________________
+
+* 16. If...else:
+    in JavaScript we have 2 conditional statement:
+        1. if...else
+        2. switch...case
+
+    if (condition) {
+        statement
+    }
+    else if (another condition) {
+        statement
+    }
+    else if (yet another condition) {
+        statement
+    }
+    else 
+        statement
+
+______________________________________________________
