@@ -280,3 +280,15 @@ ______________________________________________________
         statement
 
 ______________________________________________________
+
+* 17. Switch...case:
+    each case statement is used to compare the value of switch variable with something and it can be string, number and even boolean.
+
+    Switch (variable) {
+        case 'variable': console.log();
+        break;
+        ...
+        default: console.log();
+    }
+
+______________________________________________________

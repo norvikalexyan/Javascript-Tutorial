@@ -412,3 +412,25 @@ else if (hour >= 12 && hour < 18) console.log('Good afternoon');
 else console.log('Good evening');
 
 //_____________________________________
+
+// *** 17.Switch...case: ***
+
+let role = 'guest';
+
+switch (role) {
+	case 'guest':
+		console.log('Guest user');
+		break;
+	case 'moderator':
+		console.log('Moderator user');
+		break;
+	default:
+		console.log('Unknown user');
+}
+
+// example in above means:
+if (role === 'guest') console.log('Guest user');
+else if (role === 'moderator') console.log('Moderator user');
+else console.log('Unknown user');
+
+//_____________________________________
