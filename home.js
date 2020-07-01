@@ -520,3 +520,20 @@ for (let color of colors3) {
 }
 
 //_____________________________________
+
+// *** 24.Break and Continue
+
+let k = 0;
+console.log('Break and Continue example:');
+
+while (k <= 10) {
+	// if (k === 5) break; -> it will print from 0-4.
+	if (k % 2 === 0) {
+		k++;
+		continue; // it will print odd numbers
+	}
+	console.log(k);
+	k++;
+}
+
+//_____________________________________
