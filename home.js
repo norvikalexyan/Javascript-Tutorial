@@ -508,3 +508,13 @@ for (let key in person2) {
 }
 
 //_____________________________________
+
+// *** 23.For-of loop: ***
+
+const colors2 = ['red', 'black', 'white'];
+
+for (let color of colors2) {
+	console.log(color);
+}
+
+//_____________________________________

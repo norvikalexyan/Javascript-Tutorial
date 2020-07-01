@@ -332,3 +332,8 @@ ______________________________________________________
     we use for-in loop to iterate over the properties of an object.
 
 ______________________________________________________
+
+* 23. For-of loop:
+    we use for-of loop to iterate over elements or items in an array.
+
+______________________________________________________
