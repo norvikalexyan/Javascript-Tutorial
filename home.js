@@ -511,9 +511,11 @@ for (let key in person2) {
 
 // *** 23.For-of loop: ***
 
-const colors2 = ['red', 'black', 'white'];
+const colors3 = ['red', 'black', 'white'];
 
-for (let color of colors2) {
+console.log('For of loop example:');
+
+for (let color of colors3) {
 	console.log(color);
 }
 
