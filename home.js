@@ -495,3 +495,16 @@ do {
 } while (q < 10);
 
 //_____________________________________
+
+// *** 22.For-in loop: ***
+
+const person2 = {
+	name: 'Norvik',
+	age: 22,
+};
+
+for (let key in person2) {
+	console.log(key, person2[key]);
+}
+
+//_____________________________________

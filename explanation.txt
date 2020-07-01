@@ -327,3 +327,8 @@ ______________________________________________________
     Infinite loop execute infinitely or forever, so if we create one of this loops we are gonna crash the browser or computer.
 
 ______________________________________________________
+
+* 22. For-in loop:
+    we use for-in loop to iterate over the properties of an object.
+
+______________________________________________________
