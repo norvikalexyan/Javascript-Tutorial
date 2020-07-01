@@ -537,3 +537,23 @@ while (k <= 10) {
 }
 
 //_____________________________________
+
+// *** 25.Object basics: ***
+
+// Object-oriented Programming (OOP)
+const circle = {
+	radius: 1, // the value of an object can be anything ex. string, number, boolean and ...
+	location: {
+		// another object in an object
+		x: 1,
+		y: 1,
+	},
+	isVisible: true, // boolean
+	draw: function () {
+		console.log('draw');
+	},
+};
+
+circle.draw(); // draw method
+
+//_____________________________________

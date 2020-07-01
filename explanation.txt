@@ -343,3 +343,10 @@ ______________________________________________________
     with a continue key word we will jump to next iteration.
 
 ______________________________________________________
+
+* 25. Object basics:
+    if we have properties that are highly related we want to collect them inside an object,
+    Object-oriented Programming (OOP) -> OOP is a style of programming where we see a program as a collection of objects that talk to each other to perform some functionality,
+    if a function is a part of an object we call that function a method.
+
+______________________________________________________
