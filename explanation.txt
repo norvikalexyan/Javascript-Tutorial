@@ -320,3 +320,10 @@ ______________________________________________________
     do {
         statement;
     } while (condition)
+
+______________________________________________________
+
+* 21. Infinite loop:
+    Infinite loop execute infinitely or forever, so if we create one of this loops we are gonna crash the browser or computer.
+
+______________________________________________________

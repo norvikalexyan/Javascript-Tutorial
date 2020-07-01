@@ -476,3 +476,22 @@ do {
 } while (j <= 5);
 
 //_____________________________________
+
+// *** 21.Infinite loop: ***
+
+console.log('Infinite loop example:');
+let q = 0;
+
+while (q < 10) {
+	console.log(q);
+	q++; // if we forgot this step in while loop we are gonna create infinite loop to crash the browser.
+}
+
+for (let q = 0; q < 10; q++); // if we forgot q++ in for loop we are gonna create infinite.
+
+do {
+	console.log(q);
+	q++; // if we forgot this step in do-while loop we are gonna create infinite loop.
+} while (q < 10);
+
+//_____________________________________
