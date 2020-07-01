@@ -350,3 +350,9 @@ ______________________________________________________
     if a function is a part of an object we call that function a method.
 
 ______________________________________________________
+
+* 26. Factory Function:
+    Factory functions produce objects,
+    In modern JavaScript if our key and the value are the same we can make our code shorter by removing the value and by simply adding the key.
+
+______________________________________________________
