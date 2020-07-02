@@ -366,3 +366,8 @@ ______________________________________________________
     We also use 'new' operator and instead of returning object we use 'this' key word.
 
 ______________________________________________________
+
+* 28. Dynamic Nature of Objects:
+    Objects in JavaScript are dynamic which means once you create them we can always add new properties and remove the existence ones
+
+______________________________________________________

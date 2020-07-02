@@ -590,3 +590,19 @@ function Circle(radius) {
 const circle3 = new Circle(1);
 
 //_____________________________________
+
+// *** 28. Dynamic Nature of Objects: ***
+
+const dynamicCircle = {
+	radius: 1,
+};
+
+dynamicCircle.color = 'Yellow'; // we add color property to our object
+dynamicCircle.draw = function () {}; // we add method to our object
+
+delete dynamicCircle.color; // we delete color property from our object
+delete dynamicCircle.draw; // we delete method from our object
+
+console.log(dynamicCircle);
+
+//_____________________________________
