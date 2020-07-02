@@ -371,3 +371,11 @@ ______________________________________________________
     Objects in JavaScript are dynamic which means once you create them we can always add new properties and remove the existence ones
 
 ______________________________________________________
+
+* 29. Constructor Property:
+    Every object in JavaScript has a property called Constructor and that references the functions that we use to construct or create that object,
+    To look at the constructor of an object property on the console we will type the name of an object.constructor,
+    JavaScript engine will translate object literal to construct like this:
+        let x = {} -> let x = new Object()
+
+______________________________________________________ 
