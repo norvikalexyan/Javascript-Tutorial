@@ -356,3 +356,13 @@ ______________________________________________________
     In modern JavaScript if our key and the value are the same we can make our code shorter by removing the value and by simply adding the key.
 
 ______________________________________________________
+
+* 27. Constructor Functions:
+    Job of this function is to construct or create an object,
+    In this function we have to use 'Pascal Notation', 
+    Pascal Notation -> OneTwoThree
+    In this function we also have to use 'this' key word,
+    this -> this is a reference with an object which is executing this piece of code (this is an empty object)
+    We also use 'new' operator and instead of returning object we use 'this' key word.
+
+______________________________________________________

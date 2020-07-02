@@ -577,3 +577,16 @@ const circle2 = createCircle(2);
 console.log(circle2);
 
 //_____________________________________
+
+// *** 27.Constructor Functions: ***
+
+function Circle(radius) {
+	this.radius = radius;
+	this.draw = function () {
+		console.log('draw');
+	};
+}
+
+const circle3 = new Circle(1);
+
+//_____________________________________
