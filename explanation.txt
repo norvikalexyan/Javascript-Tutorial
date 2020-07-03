@@ -394,3 +394,16 @@ ______________________________________________________
     Another method of this function is called 'apply' and with this we can call the function but instead of passing all the arguments explicitly we will pass them as an array and this is useful if we have already another array somewhere in application and want to pass that array as a second argument in apply method.
 
 ______________________________________________________
+
+* 31. Value vs Reference:
+    In javascript we have 2 categories of types 
+        1. Value Types (primitive) -> Number, String, Boolean, Symbol, Undefined, Null
+        2. Reference Types -> Object, Function, Array 
+    When we use an object the object is not stored in that variable, that object stored somewhere in memory and address of that memory location stored inside that variable,
+    so then when we copy it the address or the reference that we copied in other words there are pointing to the same object in memory and when we modified that object using either first variable or second,
+    The changes immediately visible to the other variable.
+    * Note:
+        Primitive are copied by their value,
+        Objects are copied by their reference.
+
+______________________________________________________

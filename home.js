@@ -636,3 +636,45 @@ Circle3.call({}, 1);
 const circle5 = new Circle3(1);
 
 //_____________________________________
+
+// *** 31.Value vs Reference: ***
+
+// example:
+let f = 10;
+let h = f;
+
+f = 20;
+
+console.log(f); // expected 20
+console.log(h); // expected 10
+
+// example:
+let q2 = { value: 20 };
+let u = q2;
+
+q2.value = 25;
+
+console.log(q2); // { value: 25 }
+console.log(u); // { value: 25 }
+
+// example:
+let number2 = 10;
+
+function increase(number) {
+	number++;
+}
+
+increase(number2);
+console.log(number2); // expected 10
+
+//example:
+let obj = { value: 20 };
+
+function increase2(obj) {
+	obj.value++;
+}
+
+increase2(obj);
+console.log(obj); // expected 21
+
+//_____________________________________
