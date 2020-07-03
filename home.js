@@ -606,3 +606,33 @@ delete dynamicCircle.draw; // we delete method from our object
 console.log(dynamicCircle);
 
 //_____________________________________
+
+// *** 30. Functions are objects: ***
+
+// example:
+const Circle1 = new Function(
+	'radius',
+	`
+	this.radius = radius;
+	this.draw = function () {
+	console.log('draw');
+	};
+`
+);
+
+const circle4 = new Circle1(1);
+
+// example:
+function Circle3(radius) {
+	this.radius = radius;
+	this.draw = function () {
+		console.log('draw');
+	};
+}
+
+Circle3.call({}, 1);
+// Circle3.apply({}, [1, 2, 3]);
+
+const circle5 = new Circle3(1);
+
+//_____________________________________

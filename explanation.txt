@@ -378,4 +378,19 @@ ______________________________________________________
     JavaScript engine will translate object literal to construct like this:
         let x = {} -> let x = new Object()
 
-______________________________________________________ 
+______________________________________________________  
+
+* 30. Functions are objects:
+    As you can see in js file examples we have a function called Circle3(),
+    This function is actually an object and we can see the methods and properties of this object on console.
+    If we check the constructor of this object we will see a built in constructor called Function,
+    When we are using a function with using that syntax internally JavaScript engine will use this Function constructor to create an object, you can see the first example in our js file.
+    One of the methods is 'call' method and with this method we can call the function,
+    As you can see the first argument of 'call' method is 'this' argument and we need to pass an empty object and 'this' will reference that empty object that we pass and after that we will pas arguments explicitly and in the example we have one argument called 'radius',
+    the expression:
+        Circle3.call({}, 1)
+    is exactly like:
+        const circle5 = new Circle3(1)
+    Another method of this function is called 'apply' and with this we can call the function but instead of passing all the arguments explicitly we will pass them as an array and this is useful if we have already another array somewhere in application and want to pass that array as a second argument in apply method.
+
+______________________________________________________
