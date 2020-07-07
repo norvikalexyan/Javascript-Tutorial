@@ -678,3 +678,24 @@ increase2(obj);
 console.log(obj); // expected 21
 
 //_____________________________________
+
+// *** Enumerating Properties of an Object: ***
+
+const enumeratingCircle = {
+	radius: 1,
+	draw() {
+		console.log('draw method of enumerating circle object');
+	},
+};
+
+for (let key in enumeratingCircle) console.log(key, enumeratingCircle[key]);
+
+// for (let key of enumeratingCircle) console.log(key); -> it will be error
+
+for (let key of Object.keys(enumeratingCircle)) console.log(key);
+
+for (let entries of Object.entries(enumeratingCircle)) console.log(entries);
+
+if ('radius' in enumeratingCircle) console.log('yes');
+
+//_____________________________________

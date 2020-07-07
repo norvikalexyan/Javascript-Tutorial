@@ -407,3 +407,12 @@ ______________________________________________________
         Objects are copied by their reference.
 
 ______________________________________________________
+
+* Enumerating Properties of an Object:
+    As we learned 'For-of' loop we can only use with iterables such as arrays and maps,
+    so because object is not iterable we cannot use 'For-of' loop with an object,
+    however we have this method called 'Object.keys[name of the object]', and with this method we can get all of the keys of our object and it will return an array,
+    we have another method called 'Object.entries[name of the object]' and this method will return the value of our object as an array not as a string,
+    and if we want to know that given object has given property or method we can use 'in' operator.
+
+______________________________________________________
