@@ -408,7 +408,7 @@ ______________________________________________________
 
 ______________________________________________________
 
-* Enumerating Properties of an Object:
+* 32. Enumerating Properties of an Object:
     As we learned 'For-of' loop we can only use with iterables such as arrays and maps,
     so because object is not iterable we cannot use 'For-of' loop with an object,
     however we have this method called 'Object.keys[name of the object]', and with this method we can get all of the keys of our object and it will return an array,
@@ -417,7 +417,7 @@ ______________________________________________________
 
 ______________________________________________________
 
-* Cloning an Object:
+* 33. Cloning an Object:
     with this technic we can get all the properties of an object and copy them into another object,
     our first example is a old way of cloning an object,
     In modern javascript one of the ways is 'Object.assign({}, source object)', the first parameter is the empty object and on the second one we pass one or more source object, it will copy all the properties of the source code into empty or existence object,

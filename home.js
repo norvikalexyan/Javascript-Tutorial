@@ -679,7 +679,7 @@ console.log(obj); // expected 21
 
 //_____________________________________
 
-// *** Enumerating Properties of an Object: ***
+// *** 32.Enumerating Properties of an Object: ***
 
 const enumeratingCircle = {
 	radius: 1,
@@ -700,7 +700,7 @@ if ('radius' in enumeratingCircle) console.log('yes');
 
 //_____________________________________
 
-// *** Cloning an Object: ***
+// *** 33.Cloning an Object: ***
 
 const cloneObj = {
 	radius: 1,
