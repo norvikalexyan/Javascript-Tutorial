@@ -424,3 +424,10 @@ ______________________________________________________
     Another new way to clone an object is spread operator which is {...source object} and it will copy all the properties of a source code into an empty object.
 
 ______________________________________________________
+
+* 34. Garbage collection: 
+    In javascript we can easily create a new object at the time we initialize this object, the memory is automatically allocated to this object and next we can use that,
+    And when we are done using we don't have to deallocated the memory, so our javascript engine has a garbage collector,
+    The job of this garbage collector is to find the variables and const that are no longer in use and then deallocated the memory that was allocated earlier.
+    
+______________________________________________________
