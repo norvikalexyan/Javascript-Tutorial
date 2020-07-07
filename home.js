@@ -723,3 +723,15 @@ console.log(another);
 console.log(yetAnother);
 
 //_____________________________________
+
+// *** 35.Math: ***
+
+function getRandomInt(max) {
+	return Math.floor(Math.random() * Math.floor(max));
+}
+
+console.log(getRandomInt(2)); // expected 0, 1 and 2
+console.log(getRandomInt(1)); // expected 0
+console.log(Math.random()); //expected a number between 0 and 1
+
+//_____________________________________

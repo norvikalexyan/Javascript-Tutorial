@@ -429,5 +429,23 @@ ______________________________________________________
     In javascript we can easily create a new object at the time we initialize this object, the memory is automatically allocated to this object and next we can use that,
     And when we are done using we don't have to deallocated the memory, so our javascript engine has a garbage collector,
     The job of this garbage collector is to find the variables and const that are no longer in use and then deallocated the memory that was allocated earlier.
-    
+
+______________________________________________________
+
+* 35. Math:
+    Math is a built-in object that has properties and methods for mathematical constant and functions. (it is not a function object),
+    Math works with number type only,
+    Unlike many other global objects, math is not constructor,
+    All properties and methods of math are static,
+    We refer to the constant pi as 'Math.PI' and we call the sin function as 'Math.sin(x)', where x is the method's argument,
+    Constants are defined with the full precision for real numbers in javascript.
+    static properties:
+        1. Math.E 
+        2. Math.PI and etc. 
+    static methods:
+        1. Math.abs(x)
+        2. Math.floor(x)
+        3. Math.round(x)
+        4. Math.random(x) and etc.
+
 ______________________________________________________
