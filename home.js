@@ -699,3 +699,27 @@ for (let entries of Object.entries(enumeratingCircle)) console.log(entries);
 if ('radius' in enumeratingCircle) console.log('yes');
 
 //_____________________________________
+
+// *** Cloning an Object: ***
+
+const cloneObj = {
+	radius: 1,
+	draw() {
+		console.log('draw method of cloning an object');
+	},
+};
+
+// Old way
+// const another = {};
+// for (let key in cloneObj) another[key] = cloneObj[key];
+
+// New way of cloning an object:
+const another = Object.assign({}, cloneObj);
+
+// Yet another new way of cloning an object:
+const yetAnother = { ...cloneObj };
+
+console.log(another);
+console.log(yetAnother);
+
+//_____________________________________

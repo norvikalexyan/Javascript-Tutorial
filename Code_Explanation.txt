@@ -416,3 +416,11 @@ ______________________________________________________
     and if we want to know that given object has given property or method we can use 'in' operator.
 
 ______________________________________________________
+
+* Cloning an Object:
+    with this technic we can get all the properties of an object and copy them into another object,
+    our first example is a old way of cloning an object,
+    In modern javascript one of the ways is 'Object.assign({}, source object)', the first parameter is the empty object and on the second one we pass one or more source object, it will copy all the properties of the source code into empty or existence object,
+    Another new way to clone an object is spread operator which is {...source object} and it will copy all the properties of a source code into an empty object.
+
+______________________________________________________
