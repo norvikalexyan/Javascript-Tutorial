@@ -449,3 +449,19 @@ ______________________________________________________
         4. Math.random(x) and etc.
 
 ______________________________________________________
+
+* 36. String: 
+    The second built-in object we are gonna look at is string object,
+    As we learned string is a primitive type and primitive types don't have properties and methods only objects do,
+    The reason for this is because in JavaScript we have 2 kinds of string:
+        1. String primitive
+        2. String object
+    If we check type of string primitive it will show string and if we check type of string object it will show object,
+    In our js file we are gonna learn about some useful methods and properties of a string,
+    Another important concept that we need to know in JavaScript is 'escape notation',
+    escape notation is a special characters that if we want to use we need to encode them:
+        1. \n -> new line 
+        2. \' -> single quote 
+        3. \t -> tab and etc. 
+
+______________________________________________________
