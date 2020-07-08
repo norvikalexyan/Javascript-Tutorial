@@ -465,3 +465,20 @@ ______________________________________________________
         3. \t -> tab and etc. 
 
 ______________________________________________________
+
+* 37. Template Literals:
+    Till now we learned:
+        1. Object {}
+        2. Boolean true, false
+        3. String '', ""
+    now starting from ES6 we have:
+        4. Template ``
+
+    Template literals are string literals allowing embedded expressions,
+    with template literals we can use multi-line strings,
+    we can format the string the way we want to look like,
+    template literals can contain placeholders, these are indicated by the dollar sign and curly braces (${expression}),
+    the expression in the placeholder and the text between the (``) get passed to a function,
+    the default function just concatenates the parts into a single string.
+
+______________________________________________________

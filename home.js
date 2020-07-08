@@ -761,3 +761,16 @@ console.log('this is my \t second message'); // it has tab in the message
 const stringObj = new String('hi');
 
 //_____________________________________
+
+// *** 37.Template Literals: ***
+
+const anotherName = 'John';
+const templateMessage = `Hi ${anotherName} ${2 + 3},
+Thank you to join my mailing list.
+
+Regards,
+Norvik`;
+
+console.log(templateMessage);
+
+//_____________________________________
