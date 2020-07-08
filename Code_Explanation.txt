@@ -482,3 +482,14 @@ ______________________________________________________
     the default function just concatenates the parts into a single string.
 
 ______________________________________________________
+
+* 38. Date:
+    Date() is a constructor function,
+    as you can see date() has 6 versions and you can use up and down button to change the versions,
+    we can use date() constructor without any parameters and it will return the current date time,
+    we have another constructor with a parameter called value which can be a string, number or date,
+    another way to create date object is by passing numbers (month starts with 0 so december will be 11)
+    one of the methods for date object is 'date.get...()',
+    we also have 'date.set...()' method.
+
+______________________________________________________

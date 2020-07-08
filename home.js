@@ -774,3 +774,19 @@ Norvik`;
 console.log(templateMessage);
 
 //_____________________________________
+
+// ** 38.Date: **
+
+const now = new Date();
+const date1 = new Date('May 11 2018 09:00'); // we can pass string, number or date to this date object
+const date2 = new Date(2018, 4, 11, 9, 0); // only numbers we can pass to this date object
+
+console.log(now.toDateString());
+console.log(date1.toTimeString());
+console.log(date2.toISOString());
+
+now.setFullYear(2017);
+
+console.log(now.toDateString());
+
+//_____________________________________
