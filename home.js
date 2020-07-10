@@ -218,6 +218,41 @@ arrayNumbers3.splice(2, 1);
 
 console.log('splice method of array:', arrayNumbers3);
 
+//-------------------------
+
+// ** Emptying an array:
+
+let arrayNumbers4 = [1, 2, 3, 4];
+let anotherNumber = arrayNumbers4;
+
+// Solution one:
+// arrayNumbers4 = [];
+
+// console.log('solution one:');
+// console.log('Emptying an array:', arrayNumbers4); // expected []
+// console.log('Emptying an array:', anotherNumber); // expected [1, 2, 3, 4]
+
+// Solution two:
+arrayNumbers4.length = 0;
+
+console.log('solution two:');
+console.log('Emptying an array:', arrayNumbers4); // expected []
+console.log('Emptying an array:', anotherNumber); // expected []
+
+// Solution three:
+arrayNumbers4.splice(0, arrayNumbers4.length);
+
+console.log('solution three:');
+console.log('Emptying an array:', arrayNumbers4); // expected []
+console.log('Emptying an array:', anotherNumber); // expected []
+
+// Solution four:
+while (arrayNumbers4.length > 0) arrayNumbers4.pop();
+
+console.log('solution four:');
+console.log('Emptying an array:', arrayNumbers4); // expected []
+console.log('Emptying an array:', anotherNumber); // expected []
+
 //___________________________________________
 
 //*** 10. Functions ***
