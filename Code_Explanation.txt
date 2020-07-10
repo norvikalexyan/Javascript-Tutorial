@@ -149,7 +149,12 @@ ______________________________________________________
         lastIndexOf() method -> returns the index within the calling String object of the last occurrence of the specified value, searching backwards from 'fromIndex' and returns -1 if the value is not found.
         includes() method -> determine whether an array includes a certain value among its entries, return true or false as appropriate. 
         all this methods has second parameter which is optional and it's starting index number.
-        
+
+    * Finding elements in array (Reference type):
+        To find an element in a reference type array we can use find() method,
+        find(callback function) method -> returns the value of the first element in the provided array that satisfies the provided testing function and if it didn't find it will return undefined,
+        findIndex(callback function) method -> returns the index of the first element in the array that satisfies the providing testing function, otherwise it will return -1 indicating that no element passed the test.
+
 ________________________________________________________
 
 * 10. Functions:

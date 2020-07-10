@@ -169,6 +169,27 @@ console.log('lastIndexOf method in an array:', arrayNumbers2.lastIndexOf(1)); //
 
 console.log('includes method in an array:', arrayNumbers2.includes(1)); // expected true
 
+//-------------------------
+
+// ** Finding elements in array (Reference type): **
+
+const courses = [
+	{ id: 1, name: 'a' },
+	{ id: 2, name: 'b' },
+];
+
+const course = courses.find(function (courses) {
+	return courses.name === 'a';
+});
+
+console.log(course);
+
+const course2 = courses.findIndex(function (courses) {
+	return courses.name === 'a';
+});
+
+console.log(course2);
+
 //___________________________________________
 
 //*** 10. Functions ***
