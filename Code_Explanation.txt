@@ -133,7 +133,7 @@ ________________________________________________________
 
 ______________________________________________________
 
-* 9.Array Methods:
+* 9.Arrays and Array Methods:
     * Adding elements in array:
         Earlier we learned that array are objects so using dot notation we can look at all the methods and properties defined an array,
         three of this methods to add new element to the end, beginning or middle of an array,
@@ -176,6 +176,13 @@ ______________________________________________________
         if we have objects in an array objects themselves are not copied, references are copied and that means:
         elements in both input and output arrays will point to the same object 
         in the slice method if the elements are primitive they will copied by value and if there are reference type copied as reference.
+
+    * Iterating an array:
+        we have 2 ways to iterate an array,
+        1. For-of loop -> creates a loop iterating over iterable objects, 
+            including: built-in String, Array, array-like objects, TypedArray, Map, Set, and user-defined iterables. 
+            It invokes a custom iteration hook with statements to be executed for the value of each distinct property of the object.
+        2. forEach -> executes a provided function once for each array element.
 
 ________________________________________________________
 

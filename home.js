@@ -134,7 +134,7 @@ console.log(
 
 //___________________________________
 
-//*** 9. Array Methods ***
+//*** 9. Arrays and Array Methods ***
 
 // ** Adding new elements in array: **
 
@@ -275,6 +275,20 @@ console.log(anotherCombined);
 const sliced = combined.slice(2, 4);
 
 console.log(sliced); // expected [3, 4]
+
+//-------------------------
+
+// ** Iterating an array:
+
+const iterateNumbers = [1, 2, 3, 4];
+
+// Solution one:
+console.log('For-of loop:');
+for (let number of iterateNumbers) console.log(number);
+
+// Solution two:
+console.log('forEach:');
+iterateNumbers.forEach((number, index) => console.log(index, number));
 
 //___________________________________________
 
