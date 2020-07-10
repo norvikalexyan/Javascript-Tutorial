@@ -141,7 +141,15 @@ ______________________________________________________
         unshift() method -> adds one or more element to the beginning of an array and returns the new length of the array,
         splice() method -> changes the content of an array by removing or replacing existing elements or adding new elements in place.
         the first parameter of splice() method is index number that we want to start, the second parameter is how many elements we want to remove and third parameter is to add new element in that index.
-
+    
+    * Finding elements in array (Primitive):
+        Finding elements really depends if storing primitive or reference type in an array,
+        type of the element matters in an array,
+        indexOf() method -> returns the first index at which a given element can be found in the array, or -1 if it is not present.
+        lastIndexOf() method -> returns the index within the calling String object of the last occurrence of the specified value, searching backwards from 'fromIndex' and returns -1 if the value is not found.
+        includes() method -> determine whether an array includes a certain value among its entries, return true or false as appropriate. 
+        all this methods has second parameter which is optional and it's starting index number.
+        
 ________________________________________________________
 
 * 10. Functions:

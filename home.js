@@ -136,24 +136,39 @@ console.log(
 
 //*** 9. Array Methods ***
 
-// ** Adding new elements in array:
+// ** Adding new elements in array: **
 
-const numbers2 = [3, 4];
+const arrayNumbers = [3, 4];
 
 // End
-numbers2.push(5, 2);
+arrayNumbers.push(5, 2);
 
-console.log('Push method of an array:', numbers2);
+console.log('Push method of an array:', arrayNumbers);
 
 // Beginning
-numbers2.unshift(6, 7);
+arrayNumbers.unshift(6, 7);
 
-console.log('Unshift method of an array:', numbers2);
+console.log('Unshift method of an array:', arrayNumbers);
 
 // Middle
-numbers2.splice(2, 0, 'a', 'b');
+arrayNumbers.splice(2, 0, 'a', 'b');
 
-console.log(numbers2);
+console.log(arrayNumbers);
+
+//-------------------------
+
+// ** Finding elements in array (Primitive) **
+
+const arrayNumbers2 = [1, 2, 3, 4, 1];
+
+console.log('IndexOf method in an array:', arrayNumbers2.indexOf('a')); // expected -1
+console.log('IndexOf method in an array:', arrayNumbers2.indexOf(1, 2)); // expected 4
+console.log('IndexOf method in an array:', arrayNumbers2.indexOf(1)); // expected 0
+
+console.log('lastIndexOf method in an array:', arrayNumbers2.lastIndexOf(1)); // expected 4
+
+console.log('includes method in an array:', arrayNumbers2.includes(1)); // expected true
+
 //___________________________________________
 
 //*** 10. Functions ***
