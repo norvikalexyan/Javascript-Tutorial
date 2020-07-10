@@ -166,6 +166,17 @@ ______________________________________________________
         splice() method -> changes the content of an array by removing or replacing existing elements or adding new elements in place.
         the first parameter of splice() method is index number that we want to start, the second parameter is how many elements we want to remove and third parameter is to add new element in that index.
 
+    * Combining and Slicing an array:
+        To combine arrays we have to use concat method,
+        concat() method -> it's used to merge two or more arrays, this method do not change the existing arrays but instead returns new array.
+        to slice an array into two parts we have to use slice method,
+        slice() method -> returns shallow copy of a portion of an array into a new array object selected from start to end (end not included),
+        where start and end represent the index of items in that array and the original array will not be modified.
+        both this method if we are dealing with primitive values, this primitives will be copied into the target array,
+        if we have objects in an array objects themselves are not copied, references are copied and that means:
+        elements in both input and output arrays will point to the same object 
+        in the slice method if the elements are primitive they will copied by value and if there are reference type copied as reference.
+
 ________________________________________________________
 
 * 10. Functions:

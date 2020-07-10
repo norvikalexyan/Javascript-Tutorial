@@ -253,6 +253,25 @@ console.log('solution four:');
 console.log('Emptying an array:', arrayNumbers4); // expected []
 console.log('Emptying an array:', anotherNumber); // expected []
 
+//-------------------------
+
+// ** Combining and Slicing an array:
+
+const first = [1, 2, 3];
+const second = [4, 5, 6];
+const third = [{ id: 1 }];
+
+const combined = first.concat(second);
+const anotherCombined = first.concat(third);
+third[0].id = 10;
+
+console.log(combined);
+console.log(anotherCombined);
+
+const sliced = combined.slice(2, 4);
+
+console.log(sliced); // expected [3, 4]
+
 //___________________________________________
 
 //*** 10. Functions ***
