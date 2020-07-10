@@ -265,6 +265,10 @@ const combined = first.concat(second);
 const anotherCombined = first.concat(third);
 third[0].id = 10;
 
+// the spread operator:
+const yetAnotherCombined = [...first, 'a', ...second];
+
+console.log(yetAnotherCombined);
 console.log(combined);
 console.log(anotherCombined);
 
