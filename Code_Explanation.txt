@@ -155,6 +155,11 @@ ______________________________________________________
         find(callback function) method -> returns the value of the first element in the provided array that satisfies the provided testing function and if it didn't find it will return undefined,
         findIndex(callback function) method -> returns the index of the first element in the array that satisfies the providing testing function, otherwise it will return -1 indicating that no element passed the test.
 
+    * Arrow function:
+        An arrow function expression is an syntactically compact alternative to a regular function expression,
+        arrow function expression is ill suited as method and they cannot be used as constructors.
+
+
 ________________________________________________________
 
 * 10. Functions:

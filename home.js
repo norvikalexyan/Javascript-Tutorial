@@ -190,6 +190,11 @@ const course2 = courses.findIndex(function (courses) {
 
 console.log(course2);
 
+// * Arrow function
+const course3 = courses.findIndex((courses) => courses.name === 'b');
+
+console.log(course3);
+
 //___________________________________________
 
 //*** 10. Functions ***
