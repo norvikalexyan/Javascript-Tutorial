@@ -134,56 +134,13 @@ ________________________________________________________
 ______________________________________________________
 
 * 9.Array Methods:
-    1. toString():
-        "toString()" methods converts an array to a string of array values.
-
-    2. join(): 
-        "join()" method are able to convert an array into a string, but in addition we can specify the separator. 
-
-    3. pop(): 
-        "pop()" method removes the last element of an array.
-
-    4. push(): 
-        "push()" method add new element at the end of an array.
-
-    5. shift(): 
-        "shift()" method is equivalent to pop() method but it's working on first element instead of the last.
-
-    6. unshift(): 
-        "unshift()" method add new elements at the beginning of an array.
-
-    7. changing element: 
-        we can change one of the elements of an array by using index number.
-
-    8. length property: 
-        it returns the length of an array.
-
-    9. splice(): 
-        "splice()" method can be used to add new elements to an array.
-        the first parameter defines the position of the new element. (index[i])
-        the second parameter defines how many parameters should be removed, we can remove elements without leaving hole in an array.
-        this method returns an array with deleted items.
-
-    10. concat(): 
-        "concat()" method creates a new array by merging existing array and it can take strings as an arguments.
-
-    11.slice(): 
-        "slice()" method slices out a piece of an array into a new array.
-        the first parameter is the start position or index. index[i]
-        the second parameter is the finish position or index and it is not included.
-
-    12. sort(): 
-        "sort()" method can sort an array alphabetically.
-
-    13. reverse(): 
-        "reverse()" method sort an array in descending order.
-
-    14. indexOf(): 
-        "indexOf()" method searches an array for an element value and returns it position.
-        lastindexOf(): it is the same as indexOf(), but it returns the position of the last occurrence of the specified element.
-
-    15. include(): 
-        "include()" method determines whether an array contains a specified element 
+    * Adding elements in array:
+        Earlier we learned that array are objects so using dot notation we can look at all the methods and properties defined an array,
+        three of this methods to add new element to the end, beginning or middle of an array,
+        push() method -> adds zero or more element to the end of an array and returns the new length of the array,
+        unshift() method -> adds one or more element to the beginning of an array and returns the new length of the array,
+        splice() method -> changes the content of an array by removing or replacing existing elements or adding new elements in place.
+        the first parameter of splice() method is index number that we want to start, the second parameter is how many elements we want to remove and third parameter is to add new element in that index.
 
 ________________________________________________________
 

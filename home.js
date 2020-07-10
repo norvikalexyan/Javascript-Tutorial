@@ -136,133 +136,24 @@ console.log(
 
 //*** 9. Array Methods ***
 
-// toString() method:
-var selectedCity = ['Rome', 'Yerevan', 'Tbilisi', 'Berlin'];
-console.log('array toString() method example: ' + selectedCity.toString());
+// ** Adding new elements in array:
 
-// join():
-var selectedName = ['dom', 'nick', 'sophie'];
-console.log('array join() method example: ' + selectedName.join(' + '));
+const numbers2 = [3, 4];
 
-// pop():
-var selectedCountry = ['Armenia', 'Italy', 'Germany', 'America'];
-console.log('array pop() method example: ' + selectedCountry);
-selectedCountry.pop();
-console.log('array pop() method example: ' + selectedCountry);
+// End
+numbers2.push(5, 2);
 
-//push():
-var selectedCountry2 = ['Turkey', 'Japan', 'China'];
-console.log('array push() method example: ' + selectedCountry2);
-selectedCountry2.push('Canada');
-console.log('array push() method example: ' + selectedCountry2);
+console.log('Push method of an array:', numbers2);
 
-//shift():
-var colors = ['grey', 'gold', 'blue', 'red'];
-console.log('array shift() method example: ' + colors);
-colors.shift();
-console.log('array shift() method example: ' + colors);
+// Beginning
+numbers2.unshift(6, 7);
 
-//unshift():
-var colors2 = ['purple', 'red', 'green', 'white'];
-console.log('array unshift() method example: ' + colors2);
-colors2.unshift('black');
-console.log('array unshift() method example: ' + colors2);
+console.log('Unshift method of an array:', numbers2);
 
-//changing element:
-var selectedUniversity = ['Oxford', 'Cambridge', 'American', 'european'];
-console.log('array changing element example: ' + selectedUniversity);
-selectedUniversity[2] = 'french';
-console.log('array changing element example: ' + selectedUniversity);
+// Middle
+numbers2.splice(2, 0, 'a', 'b');
 
-//Length property:
-console.log('array length property example: ' + selectedUniversity.length);
-
-//splice():
-var selectedNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-console.log('array splice() Number: ' + selectedNumber);
-selectedNumber1 = selectedNumber.splice(6); //starts from index[6] until the last element.
-console.log('array splice Number is now: ' + selectedNumber);
-console.log('array second variable of splice is: ' + selectedNumber1);
-selectedNumber1 = selectedNumber.splice(2, 2); //starts from index[2] and remove 2 elements.
-console.log('array splice number is now: ' + selectedNumber);
-console.log('array second variable of splice is: ' + selectedNumber1);
-selectedNumber1 = selectedNumber.splice(1, 1); //starts from index[1] and remove one element.
-console.log('array splice number is now: ' + selectedNumber);
-console.log('array second variable of splice is: ' + selectedNumber1);
-selectedNumber1 = selectedNumber.splice(1, 0, 'JavaScript', 'Tutorial'); //starts from index[1], it removes nothing and add two new element from index[1].
-console.log('array splice number is now: ' + selectedNumber);
-console.log('array second variable of splice is: ' + selectedNumber1);
-selectedNumber1 = selectedNumber.splice(
-	1,
-	2,
-	['splice', 'method'],
-	'JavaScript'
-); //starts from index[1], it removes 2 element and add 2 new element, one of the new element is array but it counts as a one element.
-console.log('array splice number is now: ' + selectedNumber);
-console.log('array second variable of splice is: ' + selectedNumber1);
-
-//Concat():
-let a = [2, 4, 6, 8];
-let b = [1, 3, 5];
-let c = a.concat(b);
-console.log('first array of concat() example: a = ' + a);
-console.log('second array of concat() example: b = ' + b);
-console.log('third array of concat() example: c = ' + c);
-
-//slice():
-var d = [12, 23, 44, 56, 77, 88, 99, 100];
-var d1 = d.slice(2, 4);
-console.log('main variable of slice method of array: d = ' + d);
-console.log('second variable of slice method for array: d1 = ' + d1);
-
-//sort():
-
-//example 1:
-let selectedCars = ['toyota', 'bmw', 'mercedes', 'ford'];
-let sorted = selectedCars.sort();
-console.log('sort method example in array: ', selectedCars);
-console.log('sorted array is: ', sorted);
-
-//example 2:
-var numbers = [1, 4, 8, 12, 32, 89, 90];
-console.log(
-	'sort method in array example 2: ',
-	numbers.sort(function (a, b) {
-		return a - b; //it will sort from less to more.
-	})
-);
-
-//example 3:
-console.log(
-	'sort method in array example 3: ',
-	numbers.sort(function (a, b) {
-		return b - a; //it will sort from more to less.
-	})
-);
-
-//reverse():
-var color = ['red', 'blue', 'yellow', 'purple'];
-console.log('reverse method an array: ', color.reverse());
-
-//indexOf():
-let selectedGadget = ['laptop', 'ipad', 'mobile', 'computer'];
-console.log(
-	'indexOf method in an array example: ',
-	selectedGadget.indexOf('mobile')
-);
-//lastindexOf():
-console.log(
-	'lastindexOf method in an array example: ',
-	selectedGadget.lastIndexOf('ipad')
-);
-
-//include():
-let includeMethod = ['hello', 'hi', 'hi there', 'hello world'];
-console.log(
-	'include method in array example: ',
-	includeMethod.includes('hello')
-);
-
+console.log(numbers2);
 //___________________________________________
 
 //*** 10. Functions ***
