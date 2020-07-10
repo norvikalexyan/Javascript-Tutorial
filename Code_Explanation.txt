@@ -158,7 +158,13 @@ ______________________________________________________
     * Arrow function:
         An arrow function expression is an syntactically compact alternative to a regular function expression,
         arrow function expression is ill suited as method and they cannot be used as constructors.
-
+    
+    * Removing elements from an array:
+        to remove elements form an array we have 3 methods
+        pop() method -> removes the last element from an array and returns that element, this method changes the length of the array.
+        shift() method -> removes the first element form an array and returns that element, this method changes the length of the array.
+        splice() method -> changes the content of an array by removing or replacing existing elements or adding new elements in place.
+        the first parameter of splice() method is index number that we want to start, the second parameter is how many elements we want to remove and third parameter is to add new element in that index.
 
 ________________________________________________________
 

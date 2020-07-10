@@ -195,6 +195,29 @@ const course3 = courses.findIndex((courses) => courses.name === 'b');
 
 console.log(course3);
 
+//-------------------------
+
+// ** Removing elements from an array:
+
+const arrayNumbers3 = [1, 2, 3, 4, 5];
+
+console.log(arrayNumbers3);
+
+// End:
+arrayNumbers3.pop();
+
+console.log('pop method of array:', arrayNumbers3);
+
+// Beginning:
+arrayNumbers3.shift();
+
+console.log('shift method of array:', arrayNumbers3);
+
+// Middle:
+arrayNumbers3.splice(2, 1);
+
+console.log('splice method of array:', arrayNumbers3);
+
 //___________________________________________
 
 //*** 10. Functions ***
