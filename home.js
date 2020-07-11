@@ -333,6 +333,28 @@ courses2.sort((a, b) => {
 
 console.log(courses2);
 
+//-------------------------
+
+// ** Testing the elements of an array:
+
+const testingNumbers = [1, 2, 3];
+
+// check and see if all the numbers in the array are positive:
+const allPositive = testingNumbers.every((value) => {
+	return value >= 0;
+});
+
+console.log(allPositive); // expected true
+
+const testingNumbers2 = [1, -1, 2, 3];
+
+// check and see if some of the numbers in the array are positive
+const somePositive = testingNumbers2.some((value) => {
+	return value >= 0;
+});
+
+console.log(somePositive); // expected true
+
 //___________________________________________
 
 //*** 10. Functions ***

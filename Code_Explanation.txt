@@ -201,6 +201,11 @@ ______________________________________________________
         if we have objects in an array we will use function to sort them out and it's case sensitive it means:
         each character in the computer is internally represented using a number and you can check that on 'ascii table'.
 
+    * Testing the elements of an array:
+        We have two new methods in modern javascript called every() and some(),
+        every() method -> tests whether all the elements in the array pass the test implemented by the provided function and it returns boolean value.
+        some() method -> tests whether at least one element in the array passes the test implemented by the provided function and it returns boolean value.
+
 ________________________________________________________
 
 * 10. Functions:
