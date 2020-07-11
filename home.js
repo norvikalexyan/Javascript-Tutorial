@@ -290,6 +290,21 @@ for (let number of iterateNumbers) console.log(number);
 console.log('forEach:');
 iterateNumbers.forEach((number, index) => console.log(index, number));
 
+//-------------------------
+
+// ** Joining Arrays:
+
+const arrayNumbers5 = [1, 2, 3];
+arrayNumbers5.join(',');
+console.log(arrayNumbers5);
+
+const firstMessage = 'this is my first message';
+const parts = firstMessage.split(' ');
+console.log(parts);
+
+const joined = parts.join('-');
+console.log(joined);
+
 //___________________________________________
 
 //*** 10. Functions ***
@@ -769,16 +784,16 @@ console.log(Math.random()); //expected a number between 0 and 1
 const messages = ' This is my first message ';
 
 // Methods and properties of a string:
-console.log(messages.length); // it shows the length of the message
-console.log(messages.includes('my')); // it shows that special word is included or not
-console.log(messages.startsWith('This')); // it shows that message starts with special word or not (it's case sensitive)
-console.log(messages.endsWith('message')); // it shows that message ends with special word or not (it's case sensitive)
-console.log(messages.indexOf('my')); // it shows the special word index number
-console.log(messages.replace('first', 'second')); // it will replace the second parameter with the first one
-console.log(messages.toUpperCase()); // it will print out the message upper case
-console.log(messages.trim()); // it will remove extra spaces from the left and right
-console.log(messages.trimLeft()); // it will remove extra spaces from the left part
-console.log(messages.split(' ')); // it will return the message as an array and each item is a word
+console.log(firstMessage.length); // it shows the length of the message
+console.log(firstMessage.includes('my')); // it shows that special word is included or not
+console.log(firstMessage.startsWith('This')); // it shows that message starts with special word or not (it's case sensitive)
+console.log(firstMessage.endsWith('message')); // it shows that message ends with special word or not (it's case sensitive)
+console.log(firstMessage.indexOf('my')); // it shows the special word index number
+console.log(firstMessage.replace('first', 'second')); // it will replace the second parameter with the first one
+console.log(firstMessage.toUpperCase()); // it will print out the message upper case
+console.log(firstMessage.trim()); // it will remove extra spaces from the left and right
+console.log(firstMessage.trimLeft()); // it will remove extra spaces from the left part
+console.log(firstMessage.split(' ')); // it will return the message as an array and each item is a word
 
 //escape notation
 console.log('this is my \n second message'); // continue on a new line

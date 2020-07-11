@@ -184,6 +184,12 @@ ______________________________________________________
             It invokes a custom iteration hook with statements to be executed for the value of each distinct property of the object.
         2. forEach -> executes a provided function once for each array element.
 
+    * Joining Arrays:
+        Another useful method of array is join(),
+        join() method -> creates and returns new string by concatenating all of the elements in an array,
+            separated with commas or a specified separator string and if the array has only one item then that item will be returned without using the separator.
+        as you can see there is ? in parameter part of join method it means that it's optional an type of this parameter is string.
+
 ________________________________________________________
 
 * 10. Functions:
