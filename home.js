@@ -305,6 +305,34 @@ console.log(parts);
 const joined = parts.join('-');
 console.log(joined);
 
+//-------------------------
+
+// ** Sorting Arrays:
+
+const arrayNumbers6 = [2, 3, 1];
+arrayNumbers6.sort();
+
+console.log(arrayNumbers6);
+
+arrayNumbers6.reverse();
+
+console.log(arrayNumbers6);
+
+const courses2 = [
+	{ id: 1, name: 'Node.js' },
+	{ id: 2, name: 'JavaScript' },
+];
+
+courses2.sort((a, b) => {
+	const nameA = a.name.toUpperCase();
+	const nameB = b.name.toUpperCase();
+	if (nameA < nameB) return -1;
+	if (nameA > nameB) return 1;
+	return 0;
+});
+
+console.log(courses2);
+
 //___________________________________________
 
 //*** 10. Functions ***

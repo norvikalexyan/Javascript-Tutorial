@@ -190,6 +190,17 @@ ______________________________________________________
             separated with commas or a specified separator string and if the array has only one item then that item will be returned without using the separator.
         as you can see there is ? in parameter part of join method it means that it's optional an type of this parameter is string.
 
+    * Sorting Arrays
+        To sort an array we have a method called sort(),
+        sort() method -> sorts the elements of an array in place and returns the sorted array,
+            the default sorted array is in increasing order, built upon converting the elements into strings,
+            then comparing their sequences of UTF-16 code units values.
+        Now another method  that is often companion to the sort method is reverse method,
+        reverse() method -> reverses an array in place, the first element becomes the last and the last element become the first element.
+        This two methods are useful when we have numbers or strings in an array,
+        if we have objects in an array we will use function to sort them out and it's case sensitive it means:
+        each character in the computer is internally represented using a number and you can check that on 'ascii table'.
+
 ________________________________________________________
 
 * 10. Functions:
