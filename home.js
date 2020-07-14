@@ -355,6 +355,17 @@ const somePositive = testingNumbers2.some((value) => {
 
 console.log(somePositive); // expected true
 
+//-------------------------
+
+// ** Filtering an Array:
+
+const filterNumbers = [1, -1, 2, 3];
+
+// filter an array and return positive elements of the array
+const filtered = filterNumbers.filter((value) => value >= 0);
+
+console.log(filtered);
+
 //___________________________________________
 
 //*** 10. Functions ***
