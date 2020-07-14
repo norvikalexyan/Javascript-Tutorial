@@ -216,6 +216,13 @@ ______________________________________________________
         As you can see filter() and map() return a new array we don't modify the original array,
         this two methods are chainable which means we can call them one after another in a chain and you can see that action in our js file.
 
+    * Reducing an Array:
+        with the reduce() method we can reduce all the elements in an array into a single value,
+        that single value can be a number, it can be string or object, it can be anything,
+        in reduce() method we have a callback function with 2 parameters (accumulator, currentValue),
+        accumulator it's something that we initialize and then callback function is executed multiple times,
+        each time the second parameter (currentValue) will be set to one element in the array
+
 ________________________________________________________
 
 * 10. Functions:

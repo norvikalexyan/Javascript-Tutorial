@@ -366,7 +366,7 @@ const filtered = filterNumbers.filter((value) => value >= 0);
 
 console.log(filtered);
 
-//
+//-------------------------
 
 // ** Mapping an Array:
 
@@ -379,6 +379,23 @@ const items = mapNumbers.filter((n) => n >= 0).map((n) => ({ value: n }));
 // const html = items2.join('');
 
 console.log(items);
+
+//-------------------------
+
+// ** Reducing an Array:
+
+const reduceNumbers = [1, -1, 2, 3];
+
+// a = 0, b = 1 => 1
+// a = 1, b = -1 => 0
+// a = 0, b = 2 => 2
+// a = 2, b = 3 => 5
+
+const summation2 = reduceNumbers.reduce((accumulator, currentValue) => {
+	return accumulator + currentValue;
+}, 0);
+
+console.log(summation2);
 
 //___________________________________________
 
