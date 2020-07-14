@@ -210,6 +210,12 @@ ______________________________________________________
         We want to filter an array based on search criteria and for that we are gonna use filter() method,
         filter() method -> creates a new array with all elements that pass the test implemented by the provided function.
 
+    * Mapping an Array:
+        Another very useful method we have in modern javascript is the map() method,
+        with map method we can map each item in an array to something else.
+        As you can see filter() and map() return a new array we don't modify the original array,
+        this two methods are chainable which means we can call them one after another in a chain and you can see that action in our js file.
+
 ________________________________________________________
 
 * 10. Functions:

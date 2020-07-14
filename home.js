@@ -366,6 +366,20 @@ const filtered = filterNumbers.filter((value) => value >= 0);
 
 console.log(filtered);
 
+//
+
+// ** Mapping an Array:
+
+const mapNumbers = [1, -1, 2, 3];
+
+// filter an array and return positive elements of the array
+const items = mapNumbers.filter((n) => n >= 0).map((n) => ({ value: n }));
+
+// const items2 = filtered.map((n) => '<li>' + n + '</li>');
+// const html = items2.join('');
+
+console.log(items);
+
 //___________________________________________
 
 //*** 10. Functions ***
